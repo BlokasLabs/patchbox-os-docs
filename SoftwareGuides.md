@@ -7,7 +7,7 @@ Below are some quick tutorials demonstrating the basic use of the included softw
 It could be interesting to keep `patchage` running in the background, to see a visualization of the current Jack backend state and the interconnections between the software and hardware.
 
 ## Audacity
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552549688006_image.png)
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/Audacity.png)
 
 
 <a href="https://www.audacityteam.org/" target="_blank">Audacity</a> is a multi-track wave recorder / editor tool. It is pretty simple to use, after launching it, just click the Record button and it will record the input ports that are available to the Jack backend. After you’re done recording, hit the Stop button, and then the Play button to listen to what was recorded.
@@ -15,8 +15,7 @@ It could be interesting to keep `patchage` running in the background, to see a v
 Audacity behaves in a bit of an unusual way in the Jack-compatible software world, as it creates its Jack ports only for the duration the playback or recording is happening. That makes it a bit difficult to do custom routing in `patchage`. See <a href="https://wiki.audacityteam.org/wiki/Linux_Issues#JACK" target="_blank">Audacity’s Wiki</a> for more details on its Jack integration.
 
 ## Patchage
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552550823771_image.png)
-
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/Patchage.png)
 
 <a href="https://drobilla.net/software/patchage" target=_blank">Patchage</a> is a tool to visualize and modify the state of Jack and ALSA MIDI applications. The green colors indicate Audio signal ports and interconnections, red ones indicate JACK MIDI ports and interconnections (in practice not used much, as same capability is provided by ALSA MIDI) and the purple ones indicate the ALSA MIDI ports and interconnections.
 
@@ -25,7 +24,7 @@ The above screenshot shows how the Jack state looks like with Pure Data launched
 Using this tool you may cut the undesired connections and make new ones.
 
 ## Pianoteq Standard Trial
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552551825461_image.png)
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/Pianoteq.png)
 
 
 <a href="https://www.pianoteq.com/" target="_blank">Pianoteq</a> is a virtual instrument that reproduces acoustic sounds and playability of a real instrument by physically modeling the selected instrument. This is a trial version of the software, it has some limitations such as disabled keys, and it stops playing after some time.
@@ -35,7 +34,7 @@ Simply start the program, hook up a MIDI keyboard via USB or DIN-5 input port, a
 It is available as an LV2 plugin too, so it can be used in LV2 host software.
 
 ## Pure Data
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552554588336_image.png)
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PureData.png)
 
 
 <a href="http://puredata.info/" target="_blank">Pure Data</a> is a visual programming language for multimedia.
@@ -50,8 +49,7 @@ Check out the <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_bla
 
 
 ## Sonic Pi
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552555255575_image.png)
-
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/SonicPi.png)
 
 <a href="https://sonic-pi.net" target="_blank">Sonic Pi</a> is The Live Coding Music Synth for Everyone.
 
@@ -70,8 +68,7 @@ Click the ‘Run’ button, hook up a MIDI keyboard, and play!
 Check out the Examples section at the bottom area for more stuff to try out!
 
 ## SuperCollider
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_0673996173D822520B2E86E1EB274A16952B49EDCFECF96A4B6F28FA05AFBC2E_1552555847712_image.png)
-
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/SuperCollider.png)
 
 <a href="https://supercollider.github.io/" target="_blank">SuperCollider</a> is a platform for audio synthesis and algorithmic composition. A lot of neat, tweet sized, examples can be found on the internet, like the one below by <a href="https://twitter.com/joshpar/status/100417407021092864" target="_blank">@joshpar</a>.  To run it, paste the contents into the code area, then do `Server→Boot Server`, then `Language→Evaluate File`.
 

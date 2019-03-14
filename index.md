@@ -1,5 +1,7 @@
 # PatchboxOS
 
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PatchboxOS.png)
+
 PatchboxOS is an OS image based on Raspbian Lite preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run to help set up the system, including configuring the Jack backend parameters and connecting to WiFi network.
 
 The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The WiFi hotspot’s (called ‘**Patchbox**’, enabled by default) password is also ‘**blokaslabs**’.
