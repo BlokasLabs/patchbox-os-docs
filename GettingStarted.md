@@ -47,9 +47,9 @@ Please see the below table for recommended Jack settings:
 
 \** USB audio cards do not seem to work well with Pianoteq.
 
-Feel free to experiment with the Jack settings, like lowering the values for lower latency, the configuration tool makes a quick check of attempting to start the Jack backend, and if it fails to start, asks you to input new settings. If the server starts, but you are not getting any audio from audio software, see the [Troubleshooting](Troubleshooting.md) section.
+Feel free to experiment with the Jack settings, like lowering the values for lower latency, the configuration tool makes a quick check of attempting to start the Jack backend, and if it fails to start, asks you to input new settings. If the server starts, but you are not getting any audio from audio software, see the [Troubleshooting](Troubleshooting) section.
 
 ## Guides
 
-Check out the [Software Guides](SoftwareGuides.md) next for some quick start steps!
+Check out the [Software Guides](SoftwareGuides) next for some quick start steps!
 
