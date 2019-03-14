@@ -1,11 +1,11 @@
 # Getting Started
 
-Please see our [Tutorial Index](https://community.blokas.io/t/start-here-pisound-tutorials-index/623) for additional guides.
+Please see our <a href="https://community.blokas.io/t/start-here-pisound-tutorials-index/623" target="_blank">Tutorial Index</a> for additional guides.
 
 
 ## Flashing the SD Card
 
-Follow [this tutorial](https://community.blokas.io/t/raspberry-pi-write-sd-card-images-using-etcher/594) in order to write the downloaded PatchboxOS image to an SD card.
+Follow <a href="https://community.blokas.io/t/raspberry-pi-write-sd-card-images-using-etcher/594" target="_blank">this tutorial</a> in order to write the downloaded PatchboxOS image to an SD card.
 
 
 ## First Run
@@ -24,7 +24,7 @@ Just type in the user and password into the login screen.
 
 **Via Ethernet Connection or Local Wireless Network**
 
-[Figure out the IP address](https://community.blokas.io/t/raspberry-pi-find-raspberry-pis-ip-address/596), run `ssh patch@ip_address` from your computer.
+<a href="https://community.blokas.io/t/raspberry-pi-find-raspberry-pis-ip-address/596" target="_blank">Figure out the IP address</a>, run `ssh patch@ip_address` from your computer.
 
 **Via Default WiFi Hotspot (RPi 3(+) and Zero Only)**
 

@@ -39,5 +39,5 @@ It can be enabled by running:
 
 ## Contributing
 
-The source code for `amidiauto` is hosted on [GitHub](https://github.com/BlokasLabs/amidiauto). Pull requests expanding the functionality or fixing any issues are welcome!
+The source code for `amidiauto` is hosted on <a href="https://github.com/BlokasLabs/amidiauto" target="_blank">GitHub</a>. Pull requests expanding the functionality or fixing any issues are welcome!
 

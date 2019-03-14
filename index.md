@@ -10,25 +10,25 @@ The main highlights of the included software:
 
 
 - 4.14.91-rt49-v7+ real time kernel
-- amidiauto 1.00 // linkas i dokumentacija
-- Audacity 2.1.2 // linkas i gida
+- [amidiauto 1.00](amidiauto.md)
+- [Audacity 2.1.2](SoftwareGuides.md#audacity)
 - Jack backend 1.9.12
-- Patchage 1.0.0 // linkas i gida
-- Pianoteq Standard Trial 6.4.1 // linkas i gida
-- Pisound software // linkas i dokumentacija
-- Pure Data 0.49.0 // linkas i gida
-- Sonic Pi 3.1.0 // linkas i gida
-- Super Collider 3.9.3 // linkas i gida
-- touchosc2midi 0.10.0 // linkas i gida
+- [Patchage 1.0.0](SoftwareGuides.md#patchage)
+- [Pianoteq Standard Trial 6.4.1](SoftwareGuides.md#pianoteq-standard-trial)
+- <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_blank">Pisound software</a>
+- [Pure Data 0.49.0](SoftwareGuides.md#pure-data)
+- [Sonic Pi 3.1.0](SoftwareGuides.md#sonic-pi)
+- [Super Collider 3.9.3](SoftwareGuides.md#supercollider)
+- [touchosc2midi 0.10.0](SoftwareGuides.md#touchosc2midi)
 
 All of the audio software is configured to use the shared Jack backend service. This means that multiple audio programs may use the audio card and play together simultaneously, including the web browser.
 
-See [Getting Started] for quick guidance!
+See [Getting Started](GettingStarted.md) for quick guidance!
 
 
 ## Contributing
 
-You may contribute to the PatchboxOS project by submitting a pull request for the image generation repository: https://github.com/BlokasLabs/patchbox-os-gen
+You may contribute to the PatchboxOS project by submitting a pull request to the <a href="https://github.com/BlokasLabs/patchbox-os-gen" target="_blank">image generation repository</a>.
 
-The configuration utility source code is available here: https://github.com/BlokasLabs/patchbox-cli
+The configuration utility source code is available <a href="https://github.com/BlokasLabs/patchbox-cli" target="_blank">here</a>.
 
