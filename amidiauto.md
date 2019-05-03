@@ -20,7 +20,7 @@ Automatic routings are achieved by categorizing the available MIDI ports as bein
 
 This takes care of a lot of use cases. However, it might not suit some more advanced MIDI routings, in particular when it is intended to interconnect a software MIDI port to another software port, or the same for ports categorized as hardware ones. This can be worked around by either manually tweaking the connections after they were automatically set up using software like `patchage`, `aconnect` or `aconnectgui`.
 
-**Disabling** `**amidiauto**`
+**Disabling** `amidiauto`
 
 `amidiauto` may be disabled by running these commands:
 
@@ -28,7 +28,7 @@ This takes care of a lot of use cases. However, it might not suit some more adva
     sudo systemctl stop amidiauto
     sudo systemctl disable amidiauto
 
-**Enabling** `**amidiauto**`
+**Enabling** `amidiauto`
 
 It can be enabled by running:
 
