@@ -34,7 +34,7 @@ It can be enabled by running:
 
 
     sudo systemctl enable amidiauto
-    sudo systemcll start amidiauto
+    sudo systemctl start amidiauto
 
 
 ## Contributing
