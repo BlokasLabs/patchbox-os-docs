@@ -51,6 +51,8 @@ Check out the <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_bla
 ## Sonic Pi
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/SonicPi.png)
 
+*Currently unavailable, will be added as a Patchbox module in the near future, once a debian package is built for it.*
+
 <a href="https://sonic-pi.net" target="_blank">Sonic Pi</a> is The Live Coding Music Synth for Everyone.
 
 Let’s build a very simple synth - paste the following code into the code area:
