@@ -21,18 +21,26 @@ A Patchbox Module consists of a module definition file (`patchbox-module.json`),
 
 Take a look at this simple [Sine Wave generator module](https://github.com/BlokasLabs/sine-module) and the existing modules [here](https://github.com/BlokasLabs/patchbox-modules) for working examples.
 
-To try out the Sine Wave generator module, run:
+Before trying it out, let's make sure `patchbox --version` is `1.1.1` or greater. If it is not, run:
 
 ```
-cd /usr/local/patchbox-modules/imported
-sudo git clone https://github.com/BlokasLabs/sine-module
-
-patchbox
+patchbox update
 ```
 
-In the `patchbox` utility, go to the 'module' section, then pick 'sine' and say 'yes' when asked if you want to launch it. Now a sine wave will be heard, clicking the Pisound button will change the frequency,
-based on the number of clicks.
+Then run this command to install it:
 
-To make it stop, select the 'none' module in the `patchbox` utility.
+```
+patchbox module install https://github.com/BlokasLabs/sine-module
+```
+
+And this one to activate it (can be done via GUI too):
+
+```
+patchbox module activate sine-module
+```
+
+Now you should hear a 440Hz sine wave. The frequency can be changed by clicking The Button on Pisound different number of times.
+
+Run `patchbox module deactivate` to stop the active module. (or select `none` module in `patchbox` `modules` menu)
 
 Detailed description of the module files will be available soon.
