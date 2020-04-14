@@ -19,9 +19,9 @@ autostart stuff. One may easily switch to another module, repurposing the system
 
 A Patchbox Module consists of a module definition file (`patchbox-module.json`), a couple of scripts and any necessary config files.
 
-Take a look at this simple [Sine Wave generator module](https://github.com/BlokasLabs/sine-module) and the existing modules [here](https://github.com/BlokasLabs/patchbox-modules) for working examples.
+Check it out how easy it is to import a new module. Take a look at this simple [Sine Wave generator module](https://github.com/BlokasLabs/sine-module).
 
-Before trying it out, let's make sure `patchbox --version` is `1.1.1` or greater. If it is not, run:
+Before trying it out, let's make sure `patchbox --version` is `1.1.3` or greater. If it is not, run:
 
 ```
 patchbox update
@@ -43,4 +43,6 @@ Now you should hear a 440Hz sine wave. The frequency can be changed by clicking 
 
 Run `patchbox module deactivate` to stop the active module. (or select `none` module in `patchbox` `modules` menu)
 
-Detailed description of the module files will be available soon.
+## Patchbox Module Internals
+
+If you'd like to know more about how the modules work and how to create one, see the [Module Internals](Module-Internals.md) page.
