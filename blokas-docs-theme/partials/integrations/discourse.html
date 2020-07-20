@@ -1,0 +1,22 @@
+<!-- Set from config but allow override -->
+{% set discourse = config.extra.discourse %}
+{% if page and page.meta and page.meta.discourse is string %}
+  {% set discourse = page.meta.discourse %}
+{% endif %}
+
+<!-- Disqus integration -->
+{% if discourse %}
+  <h2 id="__comments">Comments</h2>
+  <p>Have any questions or suggestions? Let us know!</p>
+  <div id="discourse-comments"></div>
+  <div id="discourse-content" style="display:none;">Dedicated topic for <a href="{{ page.canonical_url }}">{{ page.title }} - {{ config.site_name }}</a> page.</div>
+  <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: '{{ discourse }}', discourseEmbedUrl: '{{ page.canonical_url }}' };
+
+    (function() {
+      var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+  </script>
+{% endif %}

@@ -1,0 +1,60 @@
+docs_dir: 'docs'
+site_dir: 'site'
+site_name: Patchbox OS Docs
+site_author: UAB VILNIAUS BLOKAS
+google_analytics: ['UA-44135535-1', 'auto']
+use_directory_urls: false
+theme:
+  feature:
+  name: 'material'
+  favicon: 'favicon.ico'
+  logo: 'images/logo.svg'
+  palette:
+    primary: 'white'
+    accent: 'white'
+  custom_dir: 'blokas-docs-theme'
+#extra_css:
+#  - 'assets/stylesheets/style.css'
+site_url: https://blokas.io/patchbox-os/docs/
+extra:
+  #discourse: 'https://community.blokas.io/'
+  social:
+    - type: 'github'
+      link: 'https://github.com/BlokasLabs'
+    - type: 'twitter'
+      link: 'https://twitter.com/blokaslabs'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/blokaslabs/'
+repo_name: 'patchbox-os-gen-wiki'
+repo_url: 'https://github.com/BlokasLabs/patchbox-os-gen/'
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - footnotes:
+      PLACE_MARKER: '///Footnotes Go Here///'
+
+copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
+
+pages:
+- Patchbox OS: index.md
+- Getting Started: GettingStarted.md
+- Modules:
+    - Modules: Modules.md
+    - Module Internals: Module-Internals.md
+    - patchbox-module.json reference: patchbox-module-json.md
+- Software Guides: SoftwareGuides.md
+- amidiauto: amidiauto.md
+- Troubleshooting: Troubleshooting.md
