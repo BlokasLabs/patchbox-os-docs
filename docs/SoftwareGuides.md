@@ -1,6 +1,6 @@
 # Software Guides
 
-All of the pre-installed software is configured to use the shared Jack backend, so all of it should work right out of the box without a need to tweak the settings. If you install some new software, make sure to configure it to use Jack in its audio settings.
+All of the pre-installed software is configured to use the shared Jack backend, so all of it should work right away without a need to tweak the settings. If you install some new software, make sure to configure it to use Jack in its audio settings.
 
 Below are some quick tutorials demonstrating the basic use of the included software.
 
@@ -10,7 +10,7 @@ It could be interesting to keep `patchage` running in the background, to see a v
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/Audacity.png)
 
 
-<a href="https://www.audacityteam.org/" target="_blank">Audacity</a> is a multi-track wave recorder / editor tool. It is pretty simple to use, after launching it, just click the Record button and it will record the input ports that are available to the Jack backend. After you’re done recording, hit the Stop button, and then the Play button to listen to what was recorded.
+<a href="https://www.audacityteam.org/" target="_blank">Audacity</a> is a multi-track wave recorder/editor tool which is pretty simple to use. After launching it, just click the Record button and it will record the input ports that are available to the Jack backend. After you’re done recording, hit the Stop button, and then the Play button to listen to what was recorded.
 
 Audacity behaves in a bit of an unusual way in the Jack-compatible software world, as it creates its Jack ports only for the duration the playback or recording is happening. That makes it a bit difficult to do custom routing in `patchage`. See <a href="https://wiki.audacityteam.org/wiki/Linux_Issues#JACK" target="_blank">Audacity’s Wiki</a> for more details on its Jack integration.
 
@@ -41,8 +41,9 @@ It is available as an LV2 plugin too, so it can be used in LV2 host software.
 
 The OS image comes bundled with a couple of example patches. Let’s give one of them a try - launch Pure Data, and open this file:
 
-`/usr/local/puredata-patches/GarageBeat/0_START.pd`
-
+```
+/usr/local/puredata-patches/GarageBeat/0_START.pd
+```
 It is a rhythmic generative patch, you may then try playing around with the controls in the UI.
 
 Check out the <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_blank">Pisound App</a> too which has an integration with Pure Data patches, it can be used to switch between patches and control its parameters using your phone and allows integrating <a href="https://community.blokas.io/t/pure-data-patch-with-parameters-in-the-pisound-app/622" target="_blank">MIDI mappable controls</a>.
