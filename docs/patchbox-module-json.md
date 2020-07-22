@@ -4,11 +4,11 @@ Here's a quick list of examples to take a look at to see various fields in actio
 
 | Examples | | | |
 | ---- | ---- | ---- | ---- |
-| [MODEP](https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json) | [ORAC](https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/patchbox-module.json) | [Pure Data](https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/patchbox-module.json) | [Sine Module](https://github.com/BlokasLabs/sine-module/blob/master/patchbox-module.json) |
+| <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json" target="_blank">MODEP</a> | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/patchbox-module.json" target="_blank">ORAC</a>  | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/patchbox-module.json" target="_blank">Pure Data</a> | <a href="https://github.com/BlokasLabs/sine-module/blob/master/patchbox-module.json" target="_blank">Sine Wave module</a> |
 
 ## Complete Reference
 
-Here's the complete reference of `patchbox-module.json` fields. You should have basic knowledge of the [JSON](https://en.wikipedia.org/wiki/JSON) format.
+Here's the complete reference of `patchbox-module.json` fields. You should have basic knowledge of the <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a> format.
 
 | Field/Name  | Parent | Type   | Description |
 | ----------- | ------ | ------ | ----------- |
@@ -25,9 +25,9 @@ Here's the complete reference of `patchbox-module.json` fields. You should have 
 | services    | root   | array of strings and/or objects | A list of systemd service units the module depends on which it provides itself. See [MODEP module](https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json) for an example. See 'service' description below for details of the value. |
 | service     | depends_on / services | object | An object with 'service' and 'config' keys. |
 | service     | depends_on / services / service | string | The name of systemd service unit. |
-| config      | service | string | Path to a config file for the service to be used while the module is active. Currently overriding pisound-btn and amidiauto configs is implemented. See [ORAC module](https://github.com/BlokasLabs/patchbox-modules/tree/master/orac) for an example. More implementations could be added, please contact us. |
+| config      | service | string | Path to a config file for the service to be used while the module is active. Currently overriding pisound-btn and amidiauto configs is implemented. See <a href="https://github.com/BlokasLabs/patchbox-modules/tree/master/orac" target="_blank">ORAC</a> for an example. More implementations could be added, please contact us. |
 | scripts     | root   | object | **Required.** A dictionary of scripts to use for various actions. |
 | install     | scripts | string | **Required.** The path to the shell script to run the first time the module is activated, or its version increased since last time it was run. |
-| list        | scripts | string | The path to the shell script that generates a list of usable files / patches for the module. See [Pure Data's list](https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/list.sh) for an example. |
+| list        | scripts | string | The path to the shell script that generates a list of usable files / patches for the module. See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/list.sh" target="_blank">Pure Data's list</a> for an example. |
 | launch      | scripts | string | Launcher script. An argument will be provided to the script, if launch_mode is set appropriately. |
 | stop        | scripts | string | Stopper script. It should stop the program started by launch script. |
