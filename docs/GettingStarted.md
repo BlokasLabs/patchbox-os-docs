@@ -1,24 +1,23 @@
 # Getting Started
-If you want an easy start we offer you the Patchbox OS! It is a custom Linux distribution specially designed for Raspberry Pi based audio projects. It comes pre-configured for low latency audio performance and pre-installed audio software that will help you get started with your projects in no time.
 
-These steps may be perfect even for those who have never used the Raspberry Pi before or want to go through basics once again. 
+These steps may be perfect for those who have never used the Raspberry Pi before or want to go through basics once again. 
 
-These steps can be done while your Pisound is still on it’s way!
+You can go try them even if your Pisound is still on it’s way!
 
 
 ## 1. Install operating system on the SD card
 
-These step will help you install the OS image on the SD card for an easy transfer to your Raspberry Pi.  
+These step will help you install the OS image on the SD card for an easy OS transfer to your Raspberry Pi.  
 
 ### STEP 01: Install Etcher
 
 **Windows**  
 
 1. Download <a href = "https://etcher.io/" target="_blank">Etcher</a>
-2. Double-click the *.exe file and follow the Etcher setup wizard
-3. Run Etcher in Administrator Mode: right-click on Etcher and choose ‘Run as administrator’
+2. Double-click the *.exe file and follow the setup wizard
+3. Run Etcher in the Administrator Mode: right-click on Etcher and choose ‘Run as administrator’
 
-**macOS** 
+**MacOS** 
 
 1. Download <a href = "https://etcher.io/" target="_blank">Etcher</a>
 2. Drag the Etcher app to your Applications folder on a Mac and double-click to open it
@@ -28,13 +27,13 @@ These step will help you install the OS image on the SD card for an easy transfe
 
 **Linux** 
 
-1. Download <a href="https://etcher.io/" target="_blank">the AppImage</a>
+1. Download <a href="https://etcher.io/" target="_blank">the AppImage file</a>
 2. App images are self-contained runtimes that do not require manual installation or root. They will run on pretty much every distro out there
 3. After the download is complete, double-click the image to run it
 
 ### STEP 02: Download OS image
 
-1. Download a copy of the OS image you want to install (PatchboxOS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank"> here</a>)
+1. Download a copy of the OS image you want to install (the PatchboxOS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank"> here</a>)
 2. Unzip the file after it has downloaded
 
 ### STEP 03: Select the image
@@ -46,32 +45,32 @@ These step will help you install the OS image on the SD card for an easy transfe
 5. Now click **Flash!** to write the image file on the SD card
 6. When done, remove the SD card, insert it into your Raspberry Pi and power it on.
 
-**Note:** Etcher will format the SD card, before writing and verifying the image; this is shown by a progress bar. If you want to flash another SD card with the same image, insert it and click Use Same Image.
+**Note:** Etcher will format the SD card, before writing and verifying the image (this is shown by a progress bar). If you want to flash another SD card with the same image, insert it and click Use Same Image.
 
 
 ## 2. Find Raspberry Pi’s IP address
 
 Every Raspberry Pi has its own IP address which is important to know if you want to connect to it from another device. There are few different ways to find it.
 
-**Important:** make sure your Raspberry Pi is connected to your local network using Ethernet cable or Wi-Fi.
+**Important:** make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi.
 
-### Option 01: using a monitor and a keyboard
+**Option 01: using a monitor and a keyboard**
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
-3. Open a terminal window and type `ifconfig`
+3. Open a terminal (command) window and type `ifconfig`
 4. In the output you will see the `inet addr` line displaying the IP, e.g. 192.168.1.10
 
 
-### Option 02: using Pisound app (Android)
+**Option 02: using the Pisound app (Android)**
 
-1. Download the <a href="https://play.google.com/store/apps/details?id=com.blokas.pisoundctl" target="_blank"> Pisound app</a> 
+1. Download <a href="https://play.google.com/store/apps/details?id=com.blokas.pisoundctl" target="_blank">the Pisound app</a> 
 2. Attach your Pisound to your Raspberry Pi and power it on 
-2. Launch Pisound app on your device and connect to a combo via Bluetooth
+2. Launch the Pisound app on your device and connect to a combo via Bluetooth
 3. Visit the Home tab, the IP address will be displayed below the Pisound’s serial number
 
 
-### Option 03: using Fing app (Android or iOS)
+**Option 03: using the Fing app (Android or iOS)**
 
 1. Connect your tablet/smartphone to the same Network as Raspberry Pi
 2. Download the Fing app: <a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing" target="_blank"> Android</a> or <a href="https://itunes.apple.com/gb/app/fing-network-scanner/id430921107?mt=8" target="_blank"> iOS</a>
@@ -79,7 +78,7 @@ Every Raspberry Pi has its own IP address which is important to know if you want
 4. Scroll down to the entry with the hostname of your Raspberry Pi. The IP address is desplayed bellow the hostname.
 
 
-### Option 04: using your computer & ping command
+**Option 04: using your computer & ping command**
 
 1. Connect your computer to the same Network as Raspberry Pi
 2. Open a terminal (command) window 
@@ -92,17 +91,14 @@ Every Raspberry Pi has its own IP address which is important to know if you want
 
 *If you have changed the default hostname of your Raspberry Pi, type `ping YOUR_HOSTNAME.local` instead)
 
-**Note:** if you are using Windows OS, you may get the IPv6 address. To convert it….
-
-
-### Option 05: using your computer & Angry IP Scanner 
+**Option 05: using your computer & Angry IP Scanner** 
 
 1. Download and install the <a href="http://angryip.org/" target="_blank"> Angry IP Scanner</a> 
 2. Connect your computer to the same Network as Raspberry Pi
-3. Launch Angry IP Scanner and press Start button
+3. Launch Angry IP Scanner and press **Start** button
 4. Scroll down to the entry with your Raspberry Pi’s hostname. The IP address is in the column on the left
 
-**Note:** Your Raspberry Pi may have a different IP address depending on whether it’s connected to WiFi or Ethernet, and that address might even change from time to time. If you ever find yourself unable to connect, you can always double-check!
+**Note:** Your Raspberry Pi may have a different IP address depending on whether it’s connected to WiFi or an Ethernet, and that address might even change from time to time. If you ever find yourself unable to connect, you can always double-check!
 
 ## 3. Remote control options for Raspberry Pi
 
@@ -112,7 +108,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### STEP 01: Enable SSH
 
-### Option 01: using your computer
+**Option 01: using your computer**
 
 1. Connect the SD card to your computer
 2. Navigate to the boot partition of the SD card (boot partition is the smaller one)
@@ -120,7 +116,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 4. When the Raspberry Pi boots, it looks for the `ssh` file and if it is found, SSH is enabled and the file is deleted
 
 
-### Option 02: using a monitor and a keyboard
+**Option 02: using a monitor and a keyboard**
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
@@ -130,39 +126,39 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### STEP 02: Connect to Raspberry Pi using SSH
 
-Make sure your Raspberry Pi is connected to your local network using Ethernet cable or Wi-Fi and you know the IP address of your Raspberry Pi! 
+Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and you know the IP address of your Raspberry Pi! 
 
 
-### Option 01: using Linux or MacOS computer
+**Option 01: using Linux or MacOS computer**
 
 1. Connect your computer to the same Network as Raspberry Pi
 2. Open a terminal (command) window and type `ssh USERNAME@IP_ADDRESS` (Change USERNAME with your username and for the IP_ADDRESS use the IP address from the previous step)
 
 
-### Option 02: using Windows computer
+**Option 02: using Windows computer**
 
 1. Download and install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>
 2. Connect your computer to the same Network as Raspberry Pi
 3. Launch PuTTY client
-4. Enter the IP address (how to find the IP address) and click `Open`
+4. Enter the IP address and click **Open**
 
 
-### Option 03: using Android or iOS device
+**Option 03: using Android or iOS device**
 
-1. Download the <a href="http://www.termius.com/" target="_blank">Termius App</a> 
+1. Download <a href="http://www.termius.com/" target="_blank">the Termius App</a> 
 2. Connect your device to the same Network as Raspberry Pi
 3. Open the Termius App
 4. Enter an alias of your choosing
-5. Enter the IP address (how to find the IP address) under hostname
-6. Complete the username and password fields and hit `Save` 
+5. Enter the IP address under hostname
+6. Complete the username and password fields and hit **Save**
 
 
 
-                    Rasbian username - `pi`; password - `raspberry`; 
+                    Rasbian username - pi; password - raspberry; 
 
-                    PatchboxOS username - `patch`; password - `blokaslabs`;
+                    PatchboxOS username - patch; password - blokaslabs;
 
-                    MODEP username - `modep`; password - `blokaslabs`;
+                    MODEP username - modep; password - blokaslabs;
 
 
 
@@ -170,12 +166,12 @@ Make sure your Raspberry Pi is connected to your local network using Ethernet ca
 
 ### STEP 01: Connect to a shell on the Raspberry Pi
 
-### Option 01: remotely via SSH
+**Option 01: remotely via SSH**
 
 1. Connect your computer to the same Network as Raspberry Pi
-2. Open a terminal (command) window and type `ssh USERNAME@IP_ADDRESS` (Change USERNAME with your username and for the IP_ADDRESS use the IP address (how to find the IP address))
+2. Open a terminal (command) window and type `ssh USERNAME@IP_ADDRESS` (Change USERNAME with your username and for the IP_ADDRESS use the IP address of your Raspberry Pi)
 
-### Option 02: using a monitor and a keyboard
+**Option 02: using a monitor and a keyboard**
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
@@ -191,16 +187,16 @@ Make sure your Raspberry Pi is connected to your local network using Ethernet ca
 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
-3. Launch RealVNC Viewer and enter your Raspberry Pi’s IP address 
-4. When asked enter the username and password
+3. Launch the RealVNC Viewer and enter your Raspberry Pi’s IP address 
+4. When asked, enter the username and password
 
 
 
-                    Rasbian username - `pi`; password - `raspberry`; 
+                    Rasbian username - pi; password - raspberry; 
 
-                    PatchboxOS username - `patch`; password - `blokaslabs`;
+                    PatchboxOS username - patch; password - blokaslabs;
 
-                    MODEP username - `modep`; password - `blokaslabs`;
+                    MODEP username - modep; password - blokaslabs;
 
 
 ## Comments
@@ -209,4 +205,4 @@ Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for the tips, support and other people experience! 
+Join our community forum for more tips and support! 
