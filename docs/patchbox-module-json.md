@@ -31,3 +31,11 @@ Here's the complete reference of `patchbox-module.json` fields. You should have 
 | list        | scripts | string | The path to the shell script that generates a list of usable files / patches for the module. See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/list.sh" target="_blank">Pure Data's list</a> for an example. |
 | launch      | scripts | string | Launcher script. An argument will be provided to the script, if launch_mode is set appropriately. |
 | stop        | scripts | string | Stopper script. It should stop the program started by launch script. |
+
+## Comments
+
+Have any questions or suggestions? Let us know!
+
+## Community
+
+Join our community forum for more tips and support! 

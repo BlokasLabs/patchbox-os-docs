@@ -101,4 +101,4 @@ Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for the tips, support and other people experience!
+Join our community forum for more tips and support! 

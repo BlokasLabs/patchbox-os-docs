@@ -85,3 +85,10 @@ To use it, PatchboxOS must be connected to a local network or act as a WiFi hots
 
 After the IP is set up, you may use the app to control audio software just as if you were using a MIDI controller.
 
+## Comments
+
+Have any questions or suggestions? Let us know!
+
+## Community
+
+Join our community forum for more tips and support! 

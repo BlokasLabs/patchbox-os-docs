@@ -2,14 +2,14 @@
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PatchboxOS.png)
 
-PatchboxOS is an OS image based on Raspbian Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you setup the system, including configuring the Jack backend parameters and connecting to WiFi network.
-The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The WiFi hotspot’s (called ‘**Patchbox**’, enabled by default) password is also ‘**blokaslabs**’.
+The PatchboxOS is an OS image based on Raspbian Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you setup the system, including configuring the Jack backend parameters and connecting to WiFi network.
+The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The WiFi hotspot is called ‘**Patchbox**’ (enabled by default) and the password is also ‘**blokaslabs**’.
 
-You may give the image a try even if you don't have a Pisound yet - the configuration tool allows an easy configuration of the audio device to use, so you may use built-in, USB or other audio cards
+You may give the image a try even if you don't have a Pisound yet - the configuration tool allows an easy configuration of the audio device. You may use built-in, USB or other audio cards.
 
 ## Module Manager
 
-The Patchbox OS is built around the concept of modules. It helps to minimize the software setup and manual configuration and provides an easy way to switch between installed projects without the need to manually change system-wide setting.
+The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration as well as provides an easy way to switch between installed projects without the need to manually change system-wide setting.
 
 Currently available modules:
 

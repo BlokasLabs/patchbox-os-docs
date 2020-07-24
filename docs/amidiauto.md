@@ -6,7 +6,7 @@
 
 The Linux MIDI implementation, provided by the ALSA (Advanced Linux Sound Architecture) project, follows quite a different model of operation compared to how MIDI is implemented on Windows or Mac.
 
-The main idea behind ALSA MIDI is to have hardware MIDI ports, as well as software ones, to be represented by virtual MIDI ports that can be routed as desired by the user. 
+The main idea behind ALSA MIDI is to have hardware MIDI ports as well as software ones and represent them by virtual MIDI ports that can be routed as desired by the user. 
 
 Let’s take Pure Data as an example - when configuring the ALSA MIDI settings within PD, you have to input how many virtual input and output ports PD will create. Then you have to take another step of defining the interconnections between the PD ports and other software or hardware MIDI ports using `aconnect`, `aconnectgui` or `patchage`. This is in contrast to MIDI on other major OSes, where it’s usual to select the device name within the software being configured, and a direct connection between the selected device and the software is assumed. Some Linux audio software is implemented (or is based on MIDI libraries) in a way that emulates the model of other major OSes where you get to pick the device in the configuration options and a direct connection is made.
 
@@ -14,7 +14,7 @@ The ability to interconnect the MIDI ports as desired opens up some interesting 
 
 ## Enter `amidiauto`
 
-To make use of MIDI on Linux a straightforward exercise, we have created a small background process which automatically sets up the MIDI connections when the new software instance gets launched or a new MIDI controllers gets connected to the system.
+To make the use of MIDI on Linux a straightforward exercise, we have created a small background process which automatically sets up the MIDI connections when the new software instance gets launched or a new MIDI controllers gets connected to the system.
 
 Automatic routings are achieved by categorizing the available MIDI ports as being software ones (like Pure Data, SuperCollider, etc.) and hardware ones (like USB MIDI keyboard, USB MIDI controller, DIN-5 ports, `touchosc2midi`, etc.), then as soon as some change in available ports gets detected, the new software or hardware port gets connected to the existing ports in the opposing category.
 
@@ -46,5 +46,5 @@ Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for the tips, support and other people experience! 
+Join our community forum for more tips and support!
 
