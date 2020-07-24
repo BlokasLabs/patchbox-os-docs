@@ -1,6 +1,6 @@
 # Modules
 
-The Patchbox OS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide setting.
+The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide setting.
 
 Currently available modules:
 
@@ -10,40 +10,11 @@ Currently available modules:
 
 The system can be easily extended to add support for more use cases.
 
-Patchbox OS has a built-in **Module Manager** that effortlessly turns your Raspberry Pi into a standalone music\* box.
+Patchbox     OS has a built-in **Module Manager** that effortlessly turns your Raspberry Pi into a standalone music\* box.
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/modules.png)
 
 <sup>\* Not really restricted to music. 😉</sup>
-
-
-## MODEP
-
-MOD DUO (Musician Operated Device DUO) is a multi-effects pedal which allows you to spice up your instrumentals and reproduce them instantly at home, studio or any other place 
-
-MOD DUO is based on Linux Single-Board-Computer and LV2 plugins ecosystem. It has an intuitive drag-and-drop web-based interface so you can assemble your pedalboards as you do in real life. You can find more information about the MOD DUO workflow <a href="https://www.moddevices.com/products/mod-duo" target='_blank'>here</a>  
-MODEP (MOD DUO Emulator for Pi) is an emulator that will allow you to play around with MOD system using your Raspberry Pi and <a href="https://blokas.io/pisound" target='_blank'>Pisound</a> or any other Raspberry Pi supported sound card.
-
-By the way, MOD DUO team has done a remarkable job for the whole Linux audio open-source community, so if you like this emulator you should go get <a href="https://www.moddevices.com/" target='_blank'>the real thing</a> 
-
-<a href="https://blokas.io/modep/docs/Setup/" target='_blank'>the MODEP setup</a>     
-
-## ORAC
-
-Orac is a virtual modular system based on Pure Data and created by Mark Harris (TheTechnobear). It is easy to use on any computing platform and provides various features such as Presets and Midi Learn. Orac is flexible for users - lets you create your own audio modules, and extend the ecosystem of Orac.
-
-The Orac code is cross-platform and runs on the <a href="https://www.critterandguitari.com/organelle" target='_blank'>Organelle</a>, Raspberry PI, <a href="https://bela.io" target='_blank'>Bela</a>, <a href="https://www.qubitelectronix.com/shop/nebulae" target='_blank'>Qubit Nebulae</a>, and <a href="https://github.com/mxmxmx/terminal_tedium" target='_blank'>Terminal Tedium</a>. For development purposes (only) Orac will also run on MacOS.
-
-More info about <a href="https://github.com/TheTechnobear/Orac/wiki" target='_blank'>the Orac</a> 
-
-## Pure Data
-
-Pure Data is an open source visual programming environment and works on personal computers, embedded devices and smartphones. It is a major branch of the family of Max (patcher programming languages), originally developed by Miller Puckette at IRCAM. 
-
-Pure Data (PD) enables everyone to create software graphically (without writing lines of code). PD can process and generate sound, video, 2D/3D graphics and other interfaces or MIDI inputs. It can easily work over local or remote networks and can integrate wearable equipment (motor systems, lighting rigs, etc.). PD can help you not only to realize complex systems for large-scale projects but also to learn the basics multimedia processing and visual programming methods. 
-
-More info about <a href="https://puredata.info/" target='_blank'>the Pure Data</a> 
-
 
 ## Patchbox Module
 
@@ -83,10 +54,39 @@ patchbox module deactivate
 
 **For more info about how the modules work and how to create one, see the [Module Internals](Module-Internals.md) page.**
 
+
+## MODEP
+
+MOD DUO (Musician Operated Device DUO) is a multi-effects pedal which allows you to spice up your instrumentals and reproduce them instantly at home, studio or any other place 
+
+MOD DUO is based on Linux Single-Board-Computer and LV2 plugins ecosystem. It has an intuitive drag-and-drop web-based interface so you can assemble your pedalboards as you do in real life. You can find more information about the MOD DUO workflow <a href="https://www.moddevices.com/products/mod-duo" target='_blank'>here</a>  
+MODEP (MOD DUO Emulator for Pi) is an emulator that will allow you to play around with MOD system using your Raspberry Pi and <a href="https://blokas.io/pisound" target='_blank'>Pisound</a> or any other Raspberry Pi supported sound card.
+
+By the way, MOD DUO team has done a remarkable job for the whole Linux audio open-source community, so if you like this emulator you should go get <a href="https://www.moddevices.com/" target='_blank'>the real thing</a> 
+
+<a href="https://blokas.io/modep/docs/Setup/" target='_blank'>the MODEP setup</a>     
+
+## ORAC
+
+Orac is a virtual modular system based on Pure Data and created by Mark Harris (TheTechnobear). It is easy to use on any computing platform and provides various features such as Presets and Midi Learn. Orac is flexible for users - lets you create your own audio modules, and extend the ecosystem of Orac.
+
+The Orac code is cross-platform and runs on the <a href="https://www.critterandguitari.com/organelle" target='_blank'>Organelle</a>, Raspberry PI, <a href="https://bela.io" target='_blank'>Bela</a>, <a href="https://www.qubitelectronix.com/shop/nebulae" target='_blank'>Qubit Nebulae</a>, and <a href="https://github.com/mxmxmx/terminal_tedium" target='_blank'>Terminal Tedium</a>. For development purposes (only) Orac will also run on MacOS.
+
+More info about <a href="https://github.com/TheTechnobear/Orac/wiki" target='_blank'>the Orac</a> 
+
+## Pure Data
+
+Pure Data is an open source visual programming environment and works on personal computers, embedded devices and smartphones. It is a major branch of the family of Max (patcher programming languages), originally developed by Miller Puckette at IRCAM. 
+
+Pure Data (PD) enables everyone to create software graphically (without writing lines of code). PD can process and generate sound, video, 2D/3D graphics and other interfaces or MIDI inputs. It can easily work over local or remote networks and can integrate wearable equipment (motor systems, lighting rigs, etc.). PD can help you not only to realize complex systems for large-scale projects but also to learn the basics multimedia processing and visual programming methods. 
+
+More info about <a href="https://puredata.info/" target='_blank'>the Pure Data</a> 
+
+
 ## Comments
 
 Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for the tips, support and other people experience!
+Join our community forum for more tips and support! 
