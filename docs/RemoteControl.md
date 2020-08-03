@@ -32,7 +32,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 **Option 01: using Linux or macOS computer**
 
 1. Connect your computer to the same Network as Raspberry Pi
-2. Open a terminal (command) window and type `ssh patchbox@172.24.1` (Change `patchbox` with your username and for the IP_ADDRESS use the IP address from the previous step)
+2. Open a terminal (command) window and type `ssh patch@172.24.1` (Change `patch` with your username and for the `172.24.1.1` use the IP address from the previous step)
 
 
 **Option 02: using Windows computer**
@@ -68,7 +68,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 **Option 01: remotely via SSH**
 
 1. Connect your computer to the same Network as Raspberry Pi
-2. Open a terminal (command) window and type `ssh patch@IP_172.24.1.1` (Change USERNAME with your username and for the IP_ADDRESS use the IP address of your Raspberry Pi)
+2. Open a terminal (command) window and type `ssh patch@IP_172.24.1.1` (Change `patchą` with your username and for the `172.24.1.1` use the IP address of your Raspberry Pi)
 
 **Option 02: using a monitor and a keyboard**
 
