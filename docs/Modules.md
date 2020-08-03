@@ -1,6 +1,6 @@
 # Modules
 
-The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide setting.
+The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
 Currently available modules:
 
@@ -10,21 +10,20 @@ Currently available modules:
 
 The system can be easily extended to add support for more use cases.
 
-Patchbox     OS has a built-in **Module Manager** that effortlessly turns your Raspberry Pi into a standalone music\* box.
+Patchbox OS has a built-in **Module Manager** that effortlessly turns your Raspberry Pi into a standalone music\* box.
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/modules.png)
 
 <sup>\* Not really restricted to music. 😉</sup>
 
-## Patchbox Module
-
-A **Patchbox Module** is essentially a self-sufficient use case for a standalone, headless system.
 
 Let's peek at an example of what a module can actually do. Consider the Pure Data module - it lets users pick a patch to launch immediately. And it will also get launched everytime the system is started.
 So let's say you picked a synth patch, plug in a MIDI keyboard, hookup audio output and voilà - you have a nice compact hardware synth module! Now if you're happy with the patch, bring your system to a gig, power it up, and the same patch will get started automatically, all of the autostart details have been taken care of by the Module Manager.
 
 Upon activating any module, the Module Manager will disable any previously active module, install any required software, apply the system configuration and will take care of all of the
 autostart stuff. One may easily switch to another module, repurposing the system for a different use case, while using a single SD card.
+
+## Patchbox Module
 
 A Patchbox Module consists of a module definition file (`patchbox-module.json`), a couple of scripts and any necessary config files.
 
@@ -35,24 +34,24 @@ This Sine Wave generator module can work as an audio test for your Pisound.
 **Install and activate the module**
 
 1. Make sure `patchbox --version` is `1.1.3` or greater. If it is not, run `patchbox update`
-2. To install the module run
-```
-patchbox module install https://github.com/BlokasLabs/sine-module
-```
-3. To activate the module run (can be done via GUI too)
-``` 
-patchbox module activate sine-module
-```
+2. To install the module, run
+    ```
+    patchbox module install https://github.com/BlokasLabs/sine-module
+    ```
+3. To activate the module, run (can be done via GUI too)
+    ``` 
+    patchbox module activate sine-module
+    ```
 4. You should hear a 440Hz sine wave. The frequency can be changed by clicking The Button on Pisound different number of times.
-5. To deactivate the module run
-```
-patchbox module deactivate
-```
+5. To deactivate the module, run
+    ```
+    patchbox module deactivate
+    ```
 
-*it also can be done by opening `patchbox` `modules` menu and selecting `none` module
+*it also can be done by opening `patchbox` `modules` menu and selecting `none` module   
 
 
-**For more info about how the modules work and how to create one, see the [Module Internals](Module-Internals.md) page.**
+**For more information about how the modules work and how to create one, see the [Module Internals](Module-Internals.md) page.**
 
 
 ## MODEP
@@ -89,4 +88,4 @@ Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for more tips and support! 
+Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 

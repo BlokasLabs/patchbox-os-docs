@@ -14,7 +14,7 @@ The ability to interconnect the MIDI ports as desired opens up some interesting 
 
 ## Enter `amidiauto`
 
-To make the use of MIDI on Linux a straightforward exercise, we have created a small background process which automatically sets up the MIDI connections when the new software instance gets launched or a new MIDI controllers gets connected to the system.
+To make the use of MIDI on Linux a straightforward exercise, we have created a small background process which automatically sets up the MIDI connections when new software instances get launched or a new MIDI controllers gets connected to the system.
 
 Automatic routings are achieved by categorizing the available MIDI ports as being software ones (like Pure Data, SuperCollider, etc.) and hardware ones (like USB MIDI keyboard, USB MIDI controller, DIN-5 ports, `touchosc2midi`, etc.), then as soon as some change in available ports gets detected, the new software or hardware port gets connected to the existing ports in the opposing category.
 

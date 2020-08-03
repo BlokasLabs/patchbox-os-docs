@@ -38,4 +38,4 @@ Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our community forum for more tips and support! 
+Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 

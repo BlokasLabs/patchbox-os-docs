@@ -1,15 +1,15 @@
-# PatchboxOS
+# Patchbox OS
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PatchboxOS.png)
 
-The PatchboxOS is an OS image based on Raspbian Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you setup the system, including configuring the Jack backend parameters and connecting to WiFi network.
+The Patchbox OS is an OS image based on Raspbian Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you to set the system up, including configuring the Jack backend parameters and connecting to WiFi network.
 The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The WiFi hotspot is called ‘**Patchbox**’ (enabled by default) and the password is also ‘**blokaslabs**’.
 
-You may give the image a try even if you don't have a Pisound yet - the configuration tool allows an easy configuration of the audio device. You may use built-in, USB or other audio cards.
+You may give the image a try even if you don't have a Pisound yet - the configuration tool allow for an easy configuration of the audio device. You may use built-in, USB or other audio cards.
 
 ## Module Manager
 
-The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration as well as provides an easy way to switch between installed projects without the need to manually change system-wide setting.
+The Patchbox OS is built around the concept of [modules](Modules.md). It helps to minimize the software setup and manual configuration as well as provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
 Currently available modules:
 
@@ -36,9 +36,11 @@ The main highlights of the included software:
 
 All of the audio software is configured to use the shared Jack backend service. This means that multiple audio programs may use the audio card and play together simultaneously, including the web browser.
 
+**Now head straight to the First Run page where you will find all the information you need to set the Raspberry Pi up and get the Patchbox OS running!** 
+
 ## Contributing
 
-You may contribute to the PatchboxOS project by submitting a pull request to the <a href="https://github.com/BlokasLabs/patchbox-os-gen" target="_blank">image generation repository</a>.
+You may contribute to the Patchbox OS project by submitting a pull request to the <a href="https://github.com/BlokasLabs/patchbox-os-gen" target="_blank">image generation repository</a>.
 
 The configuration utility source code is available <a href="https://github.com/BlokasLabs/patchbox-cli" target="_blank">here</a>.
 

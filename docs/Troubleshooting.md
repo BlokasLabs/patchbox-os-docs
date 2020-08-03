@@ -21,7 +21,7 @@ Once you spot the failed service (let’s use ‘jack.service’ as an example),
 
 **jack.service** - the Jack backend service. If it has failed or its logs are indicating errors, you will not hear any audio. Try reconfiguring Jack to use a different audio card or larger buffers using `sudo patchbox-config`, going to ‘jack’ section.
 
-**pisound-ctl.service** - the Pisound App controls server process. It must be running for Pisound App to work.
+**pisound-ctl.service** - the Pisound App control server process. It must be running for Pisound App to work.
 
 **pisound-btn.service** - ****the Pisound Button background process. If it is not running, the Pisound’s button will not work.
 
