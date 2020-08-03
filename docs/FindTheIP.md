@@ -26,8 +26,8 @@ Every Raspberry Pi has its own IP address which is important to know if you want
 
 1. Connect your tablet/smartphone to the same Network as Raspberry Pi
 2. Download the Fing app: <a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing" target="_blank"> Android</a> or <a href="https://itunes.apple.com/gb/app/fing-network-scanner/id430921107?mt=8" target="_blank"> iOS</a>
-3. Press “Scan for devices” on the top of the screen (right under the name of your Wi-Fi hotspot)
-4. Scroll down to the entry with the hostname of your Raspberry Pi. The IP address is displayed bellow the hostname.
+3. Press “**Scan for devices**” on the top of the screen (right under the name of your Wi-Fi hotspot)
+4. Scroll down to the entry with the hostname of your Raspberry Pi. The IP address is displayed bellow the hostname
 
 
 **Option 04: using your computer & ping command**
@@ -41,7 +41,7 @@ Every Raspberry Pi has its own IP address which is important to know if you want
 
     `64 bytes from 192.168.1.33: icmp_seq=0 ttl=255 time=2.618 ms`
 
-*If you have changed the default hostname or you are using a different OS image, type `ping YOUR_HOSTNAME.local` instead)
+*If you have changed the default hostname or you are using a different OS image, type `ping your_hostname.local` instead)
 
 **Option 05: using your computer & Angry IP Scanner** 
 

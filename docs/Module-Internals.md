@@ -1,6 +1,6 @@
 ### patchbox-module.json
 
-`patchbox-module.json` is the most important file of a Patchbox Module.  contains essential information, like version info, display name, as well as the technical details like the various scripts for installing, launching, stopping and the list of system services the module depends on.
+`patchbox-module.json` is the most important file of a Patchbox Module. It contains essential information, like version info, display name, as well as the technical details like the various scripts for installing, launching, stopping and the list of system services the module depends on.
 
 See the complete reference [here](patchbox-module-json.md).
 

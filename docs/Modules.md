@@ -1,6 +1,6 @@
 # Modules
 
-The PatchboxOS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
+The Patchbox OS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
 Currently available modules:
 
