@@ -1,6 +1,6 @@
 # Setup Wizard
 
-The very first time you login to the Patchbox OS, the setup wizard is ready to help you set things up. Starting with a system update and finishing with the instalation of a chosen [module](Modules.md) - the Patchbox OS will be ready in no time. Follow the steps listed below and get it done!
+The very first time you login to the Patchbox OS, the setup wizard is ready to help you to set things up. Starting with a system update and finishing with the instalation of a chosen [module](Modules.md) - the Patchbox OS will be ready in no time. Follow the steps listed below and get it done!
 
 **Note:** If you want to use the Pisound as the audio card, attach it to your Raspberry Pi before powering it on.
 
