@@ -50,7 +50,7 @@ To get custom button actions for your module, place the scripts that should get 
 
 Then create a `pisound-btn.conf`, referencing the custom button scripts using relative path to them in `pisound-btn`. 
 
-See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/pisound-btn.con" target="_blank">ORAC</a> for an example
+See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/pisound-btn.conf" target="_blank">ORAC</a> for an example
 
 And you have to mention this config availability in the `patchbox-module.json` file in the `depends_on` section:
 ```

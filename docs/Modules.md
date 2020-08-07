@@ -1,6 +1,13 @@
 # Modules
 
-The Patchbox OS is built around the concept of modules. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
+![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/modules.png)
+
+The Patchbox OS is built around the concept of modules that effortlessly turns your Raspberry Pi into a standalone music\* box.
+
+
+<sup>\* Not really restricted to music. 😉</sup>
+
+The Patchbox OS has a built-in **Module Manager**. It helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
 Currently available modules:
 
@@ -9,12 +16,6 @@ Currently available modules:
 - [Pure Data](SoftwareGuides.md#pure-data)
 
 The system can be easily extended to add support for more use cases.
-
-Patchbox OS has a built-in **Module Manager** that effortlessly turns your Raspberry Pi into a standalone music\* box.
-
-![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/modules.png)
-
-<sup>\* Not really restricted to music. 😉</sup>
 
 
 Let's peek at an example of what a module can actually do. Consider the Pure Data module - it lets users pick a patch to launch immediately. And it will also get launched everytime the system is started.
@@ -31,7 +32,7 @@ This is a simple <a href="https://github.com/BlokasLabs/sine-module" target='_bl
 
 This Sine Wave generator module can work as an audio test for your Pisound. 
 
-**Install and activate the module**
+**Install and Activate the Module**
 
 1. Make sure `patchbox --version` is `1.1.3` or greater. If it is not, run `patchbox update`
 2. To install the module, run
@@ -69,7 +70,7 @@ By the way, MOD DUO team has done a remarkable job for the whole Linux audio ope
 
 Orac is a virtual modular system based on Pure Data and created by Mark Harris (TheTechnobear). It is easy to use on any computing platform and provides various features such as Presets and Midi Learn. Orac is flexible for users - lets you create your own audio modules, and extend the ecosystem of Orac.
 
-The Orac code is cross-platform and runs on the <a href="https://www.critterandguitari.com/organelle" target='_blank'>Organelle</a>, Raspberry PI, <a href="https://bela.io" target='_blank'>Bela</a>, <a href="https://www.qubitelectronix.com/shop/nebulae" target='_blank'>Qubit Nebulae</a>, and <a href="https://github.com/mxmxmx/terminal_tedium" target='_blank'>Terminal Tedium</a>. For development purposes (only) Orac will also run on MacOS.
+The Orac code is cross-platform and runs on the <a href="https://www.critterandguitari.com/organelle" target='_blank'>Organelle</a>, Raspberry PI, <a href="https://bela.io" target='_blank'>Bela</a>, <a href="https://www.qubitelectronix.com/shop/nebulae" target='_blank'>Qubit Nebulae</a>, and <a href="https://github.com/mxmxmx/terminal_tedium" target='_blank'>Terminal Tedium</a>. For development purposes (only) Orac will also run on macOS.
 
 More info about <a href="https://github.com/TheTechnobear/Orac/wiki" target='_blank'>the Orac</a> 
 
@@ -81,11 +82,10 @@ Pure Data (PD) enables everyone to create software graphically (without writing 
 
 More info about <a href="https://puredata.info/" target='_blank'>the Pure Data</a> 
 
-
 ## Comments
 
 Have any questions or suggestions? Let us know!
 
 ## Community
 
-Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 
+Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! s

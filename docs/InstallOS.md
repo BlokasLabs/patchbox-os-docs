@@ -1,6 +1,6 @@
-# Install the operating system on the SD card
+# Install the Operating System on the SD Card
 
-For the OS image transfer to the Raspberry Pi, we recommend you to use the SD card and the balenaEtcher software which will format the SD card and will flash the image to it. Follow the steps listed below and get it done!
+For the OS image transfer to the Raspberry Pi we recommend you to use the SD card and the balenaEtcher software. It will format the SD card and will flash the image to it. Follow the steps listed below and get it done!
 
 <a href="https://community.blokas.io/t/raspberry-pi-write-sd-card-images-using-os-x-command-line/614" target='_blank'>Here's another way to do it with macOS</a>
 
@@ -23,11 +23,11 @@ For the OS image transfer to the Raspberry Pi, we recommend you to use the SD ca
 1. Download the <a href="https://www.balena.io/etcher/" target="_blank">AppImage</a> file
 2. App images are self-contained runtimes that do not require manual installation
 3. To make the file exacutable, run `chmod +x file_name`
-3. Double-click the image to run it
+3. Double-click the AppImage to run it
 
 ### STEP 02: Download the OS image
 
-1. Download a copy of the OS image you want to install (the Patchbox OS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank">here</a>)
+1. Download a copy of the OS image you want to install ([the Patchbox OS](index.md) image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank">here</a>)
 2. Unzip the file after it has downloaded
 
 ### STEP 03: Flash the SD card 
@@ -39,9 +39,9 @@ For the OS image transfer to the Raspberry Pi, we recommend you to use the SD ca
 5. Now click **Flash!** to write the image file on the SD card
 6. When done, safely remove the SD card, insert it into your Raspberry Pi and power it on.
 
-**Note:** before writing and verifying the image (this is shown by a progress bar), balenaEtcher will format the SD card by clearing all pre-existing data 
+**Note:** Before writing and verifying the image (this is shown by a progress bar), balenaEtcher will format the SD card by clearing all pre-existing data.
 
-**Note:** if you want to flash another SD card with the same image, insert it and click **Use same image**
+**Note:** If you want to flash another SD card with the same image, insert it and click **Flash Another**.
 
 ## Comments
 

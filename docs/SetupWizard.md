@@ -1,14 +1,13 @@
-# Initial setup wizard
+# Setup Wizard
 
-The very first time you login to the PatchboxOS, the setup wizard will run to help set things up. 
-You will be asked to change your password, set the audio card up, the target boot environment and WiFi connection.
+The very first time you login to the Patchbox OS, the setup wizard is ready to help you set things up. Starting with a system update and finishing with the instalation of a chosen [module](Modules.md) - the Patchbox OS will be ready in no time. Follow the steps listed below and get it done!
+
+**Note:** If you want to use the Pisound as the audio card, attach it to your Raspberry Pi before powering it on.
 
 A few tips which can be useful while going through the set up wizard:
 
-- While going through the setup wizard you will be asked to choose the audio card you want to use. If you want to use Pisound, attach it to your Raspberry Pi before plugging it in
-- Patchbox OS username - `patch`; password - `blokaslabs`
-- If you want to go throught the setup wizard again, run `patchbox wizard`
-- If you chose to connect to your Raspberry Pi via `SSH`, you will get asked if you want to connect to a WiFi network during the initial setup wizard, once the connection is attempted, the `ssh` connection will drop. You may skip this step in order not to lose the connection. If you did connect to other WiFi hotspot, figure out the IP and use that to ssh as described in above method
+- The Patchbox OS username - `patch`; password - `blokaslabs`
+- The built-in sound card of the Raspberry Pi is ALSA (bcm2835_alsa). If connected correctly, Pisound (or any other sound card) should be listed under the **Set the default soundcard (-d)**. If not, make sure you connected it correctly or try to restart the Raspberry Pi
 - Recommended Jack settings:
 
 |                    | Pisound | Built-in BCM audio jack (bcm2835_alsa)* | USB audio card** |
@@ -21,11 +20,13 @@ A few tips which can be useful while going through the set up wizard:
 
 **USB audio cards do not seem to work well with Pianoteq.
 
+- You will get to decide which boot environment you want to use (dekstop or console). If you want to control your Raspberry Pi via VNC, choose `dekstop`. This will initiate the graphical environment (it can be done after the setup wizard by running `startx`). For remote control via VNC we recommend to use The RealVNC viewer ([more about remote control via VNC](RemoteControl.md))
+- During the initial setup wizard you will get asked if you want to connect to a Wi-Fi network, once the Wi-Fi connection is attempted, the SSH connection will drop. You may skip this step in order not to lose the connection.
+- The last step of the setup wizard is activating a [module](Modules.md) 
+- If you want to go through the setup wizard again, run `patchbox wizard`
 - All the settings can be changed later by running `patchbox` and choosing the parameter you want to change
-- The last step of the setup wizard is activating a [module](Modules.md). 
 
-
-**Note:** feel free to experiment with the Jack settings, like lowering the values for lower latency, the configuration tool makes a quick check of attempting to start the Jack backend, and if it fails to start, asks you to input new settings. If the server starts, but you are not getting any audio from audio software, see the [Troubleshooting](https://blokas.io/patchbox-os/docs/Troubleshooting/) section.
+**Note:** Feel free to experiment with the Jack settings, like lowering the values for lower latency, the configuration tool makes a quick check of attempting to start the Jack backend, and if it fails to start, asks you to input new settings. If the server starts, but you are not getting any audio from audio software, see the [Troubleshooting](https://blokas.io/patchbox-os/docs/Troubleshooting/) section.
 
 ## Comments
 
