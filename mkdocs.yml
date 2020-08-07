@@ -50,12 +50,13 @@ copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
 
 pages:
 - Patchbox OS: index.md
-- First Run: 
-    - Install the operating system on the SD card: InstallOS.md
-    - Find the IP address of the Raspberry Pi: FindTheIP.md
-    - Remote control options for Raspberry Pi: RemoteControl.md
-    - First run options: FirstRunOptions.md
-    - Initial setup wizard: SetupWizard.md
+- Essentials of the Raspberry Pi: 
+    - Install the Operating System on the SD Card: InstallOS.md
+    - Find the IP Address of the Raspberry Pi: FindTheIP.md
+    - Remote Control Options for the Raspberry Pi: RemoteControl.md
+- First Run of the Patchbox OS: 
+    - First Run Options: FirstRunOptions.md
+    - Setup Wizard: SetupWizard.md
 - Modules: 
     - Modules: Modules.md
     - Module Internals: Module-Internals.md
