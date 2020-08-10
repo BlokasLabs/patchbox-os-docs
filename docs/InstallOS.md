@@ -2,7 +2,9 @@
 
 For the OS image transfer to the Raspberry Pi we recommend you to use the SD card and the balenaEtcher software. It will format the SD card and will flash the image to it. Follow the steps listed below and get it done!
 
-<a href="https://community.blokas.io/t/raspberry-pi-write-sd-card-images-using-os-x-command-line/614" target='_blank'>Here's another way to do it with macOS</a>
+**Note:** Before writing and verifying the image (this is shown by a progress bar), balenaEtcher will format the SD card by clearing all pre-existing data.
+
+<a href="https://community.blokas.io/t/raspberry-pi-write-sd-card-images-using-os-x-command-line/614" target='_blank'>Here's another way to do it with macOS</a> 
 
 ### STEP 01: Install balenaEtcher
 
@@ -38,8 +40,6 @@ For the OS image transfer to the Raspberry Pi we recommend you to use the SD car
 4. Click **Select target** and choose your SD card
 5. Now click **Flash!** to write the image file on the SD card
 6. When done, safely remove the SD card, insert it into your Raspberry Pi and power it on.
-
-**Note:** Before writing and verifying the image (this is shown by a progress bar), balenaEtcher will format the SD card by clearing all pre-existing data.
 
 **Note:** If you want to flash another SD card with the same image, insert it and click **Flash Another**.
 

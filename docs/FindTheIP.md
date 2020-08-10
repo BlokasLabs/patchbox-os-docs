@@ -2,7 +2,7 @@
 
 Every Raspberry Pi has its own IP address which is important to know if you want to connect to it from another device and control it remotely. There are few different ways to find it. Follow the steps listed below and get it done!
 
-Your Raspberry Pi may have a different IP address depending on whether it’s connected to Wi-Fi or via Ethernet, and that address might even change from time to time. If you ever find yourself unable to connect, make sure the IP address you are using is correct!
+Your Raspberry Pi may have a different IP address depending on whether it’s connected to a Wi-Fi or via Ethernet. The IP address might even change from time to time, so if you ever find yourself unable to connect, make sure the IP address you are using is correct!
 
 **Important: make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi.**
 

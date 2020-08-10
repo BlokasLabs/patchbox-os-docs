@@ -15,8 +15,8 @@ The Patchbox OS is built around the concept of [modules](Modules.md). It helps t
 Currently available modules:
 
 - <a href="https://blokas.io/MODEP/" target="_blank">MODEP</a>
+- <a href="https://puredata.info/" target='_blank'>Pure Data</a> 
 - <a href="https://community.blokas.io/t/orac-2-0-for-the-raspberry-pi/1099" target="_blank">ORAC</a>
-- [Pure Data](SoftwareGuides.md#pure-data)
 
 The system can be easily extended to add support for more use cases.
 

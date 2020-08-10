@@ -22,14 +22,14 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 4. Select `Interfacing Options` and navigate to `SSH`
 5. Choose `Yes`, `Ok` and `Finish`
 
-### STEP 02: Connect to Raspberry Pi using SSH
+### STEP 02: Connect to your Raspberry Pi using SSH
 
-**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi and you know the IP address of your Raspberry Pi!
+**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
   
 **Option 01: using Linux or macOS computer**
 
 1. Connect your computer to the same Network as your Raspberry Pi
-2. Open a terminal (command) window and run `ssh username@ip_address` ([find the IP address of your Raspberry Pi](FindTheIP.md))
+2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
 
 
 **Option 02: using Windows computer**
@@ -51,12 +51,12 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ## VNC (Virtual Network Computing)
 
-### STEP 01: Connect to a shell on the Raspberry Pi
+### STEP 01: Connect to a shell on your Raspberry Pi
 
 **Option 01: remotely via SSH**
 
 1. Connect your computer to the same Network as your Raspberry Pi
-2. Open a terminal (command) window and run `ssh username@ip_address` ([find the IP address of your Raspberry Pi](FindTheIP.md))
+2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
 
 **Option 02: using a monitor and a keyboard**
 

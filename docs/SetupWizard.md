@@ -20,8 +20,8 @@ A few tips which can be useful while going through the set up wizard:
 
 **USB audio cards do not seem to work well with Pianoteq.
 
-- You will get to decide which boot environment you want to use (dekstop or console). If you want to control your Raspberry Pi via VNC, choose `dekstop`. This will initiate the graphical environment (it can be done after the setup wizard by running `startx`). For remote control via VNC we recommend to use The RealVNC viewer ([more about remote control via VNC](RemoteControl.md))
-- During the initial setup wizard you will get asked if you want to connect to a Wi-Fi network, once the Wi-Fi connection is attempted, the SSH connection will drop. You may skip this step in order not to lose the connection.
+- You will get to decide which boot environment you want to use (dekstop or console). If you want to control your Raspberry Pi via VNC, choose `dekstop`. This will initiate the graphical environment (it can be done after the setup wizard by running `startx`). For remote control via VNC we recommend to use <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">the RealVNC Viewer</a> ([more about remote control via VNC](RemoteControl.md))
+- During the initial setup wizard you will get asked if you want to connect to a Wi-Fi network. Once the Wi-Fi connection is attempted, the SSH connection will drop. You may skip this step in order not to lose the connection.
 - The last step of the setup wizard is activating a [module](Modules.md) 
 - If you want to go through the setup wizard again, run `patchbox wizard`
 - All the settings can be changed later by running `patchbox` and choosing the parameter you want to change
