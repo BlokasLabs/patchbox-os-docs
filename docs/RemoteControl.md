@@ -6,6 +6,8 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### STEP 01: Enable SSH
 
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, you may skip this step because SSH is enabled by default
+
 **Option 01: using your computer**
 
 1. Insert the SD card to your computer's SD card reader
@@ -67,6 +69,8 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### STEP 02: Install & enable VNC 
 
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, you may skip this step because VNC is enabled by default
+
 1. In terminal (command) window run `sudo raspi-config`
 2. Select `Interfacing Options` and navigate to `VNC`
 3. Choose `Yes`, `Ok` and `Finish`
@@ -74,16 +78,20 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### STEP 03: Connect to your Raspberry Pi using VNC
 
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, while going through the setup wizard you will get asked about the `boot environment`. If you want to control your Raspberry Pi via VNC, you may want to choose one of the `desktop` or `desktop autologin` options. This way Patchbox OS will initiate the graphical interface automatically on system startup. Otherwise, you will have to initiate it manually by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi.
+
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
 3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
 4. When asked, enter the username and password
 
+        DEFAULT USERNAMES & PASSWORDS
 
-## Comments
+        Raspberry Pi OS: 
+        USERNAME - pi
+        PASSWORD - raspberry
 
-Have any questions or suggestions? Let us know!
+        Patchbox OS: 
+        USERNAME - patch
+        PASSWORD - blokaslabs
 
-## Community
-
-Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 

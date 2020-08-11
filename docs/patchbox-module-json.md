@@ -4,7 +4,7 @@ Here's a quick list of examples to take a look at to see various fields in actio
 
 | Examples | | | |
 | ---- | ---- | ---- | ---- |
-| <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json" target="_blank">MODEP</a> | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/patchbox-module.json" target="_blank">ORAC</a>  | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/patchbox-module.json" target="_blank">Pure Data</a> | <a href="https://github.com/BlokasLabs/sine-module/blob/master/patchbox-module.json" target="_blank">Sine Wave module</a> |
+| <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json" target="_blank">MODEP</a> | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/patchbox-module.json" target="_blank">Orac</a>  | <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/patchbox-module.json" target="_blank">Pure Data</a> | <a href="https://github.com/BlokasLabs/sine-module/blob/master/patchbox-module.json" target="_blank">Sine Wave module</a> |
 
 ## Complete Reference
 
@@ -31,11 +31,3 @@ Here's the complete reference of `patchbox-module.json` fields. You should have 
 | list        | scripts | string | The path to the shell script that generates a list of usable files / patches for the module. See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/list.sh" target="_blank">Pure Data's list</a> for an example. |
 | launch      | scripts | string | Launcher script. An argument will be provided to the script, if launch_mode is set appropriately. |
 | stop        | scripts | string | Stopper script. It should stop the program started by launch script. |
-
-## Comments
-
-Have any questions or suggestions? Let us know!
-
-## Community
-
-Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 

@@ -84,11 +84,3 @@ Check out the Examples section at the bottom area for more stuff to try out!
 To use it, PatchboxOS must be connected to a local network or act as a WiFi hotspot. Your portable device must be connected to the same network. Open the TouchOSC app settings, and enter the IP of PatchboxOS device into ‘TouchOSC Bridge’ setting. If your network configuration permits it, the PatchboxOS may be auto-detected within the settings.
 
 After the IP is set up, you may use the app to control audio software just as if you were using a MIDI controller.
-
-## Comments
-
-Have any questions or suggestions? Let us know!
-
-## Community
-
-Join our <a href = "https://community.blokas.io/" target="_blank">community</a> forum for more tips and support! 

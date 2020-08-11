@@ -2,9 +2,9 @@
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PatchboxOS.png)
 
-The Patchbox OS is an OS image based on Raspbian Lite and preconfigured with the audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you to set the system up, including configuring the Jack backend parameters and connecting to a Wi-Fi network.
+The Patchbox OS is an OS image based on Raspberry Pi OS Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you to set the system up, including configuring the Jack backend parameters and connecting to a Wi-Fi network.
 
-**You may give the image a try even if you don't have <a href="https://blokas.io/pisound/" target="_blank">the Pisound</a> yet - the configuration tool allows for an easy configuration of the audio device. You may use built-in, USB or other audio cards.**
+**You may give the image a try even if you don't have a <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> yet - the configuration tool allows for an easy configuration of the audio device, so you may use built-in, USB or other audio cards.**
 
 **Note:** The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The Wi-Fi hotspot is called ‘**Patchbox**’ (enabled by default) and the password is also ‘**blokaslabs**’.
 
@@ -15,8 +15,8 @@ The Patchbox OS is built around the concept of [modules](Modules.md). It helps t
 Currently available modules:
 
 - <a href="https://blokas.io/MODEP/" target="_blank">MODEP</a>
+- <a href="https://community.blokas.io/t/orac-2-0-for-the-raspberry-pi/1099" target="_blank">Orac</a>
 - <a href="https://puredata.info/" target='_blank'>Pure Data</a> 
-- <a href="https://community.blokas.io/t/orac-2-0-for-the-raspberry-pi/1099" target="_blank">ORAC</a>
 
 The system can be easily extended to add support for more use cases.
 

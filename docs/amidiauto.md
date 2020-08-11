@@ -40,11 +40,4 @@ It can be enabled by running:
 
 The source code for `amidiauto` is hosted on <a href="https://github.com/BlokasLabs/amidiauto" target="_blank">GitHub</a>. Pull requests expanding the functionality or fixing any issues are welcome!
 
-## Comments
-
-Have any questions or suggestions? Let us know!
-
-## Community
-
-Join our community forum for more tips and support!
 

@@ -28,12 +28,3 @@ Once you spot the failed service (let’s use ‘jack.service’ as an example),
 **touchosc2midi.service** - the TouchOSC2MIDI bridge service. If it is not running, TouchOSC Apps will not work.
 
 **wifi-hotspot.service** - this service is used to control whether PatchboxOS behaves as a WiFi hotspot and it is used to set the desired behavior.
-
-
-## Comments
-
-Have any questions or suggestions? Let us know!
-
-## Community
-
-Join our community forum for more tips and support! 
