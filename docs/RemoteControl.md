@@ -85,7 +85,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
 4. When asked, enter the username and password
 
-        DEFAULT USERNAMES & PASSWORDS
+        DEFAULT USERNAMES & PASSWORDS   
 
         Raspberry Pi OS: 
         USERNAME - pi
