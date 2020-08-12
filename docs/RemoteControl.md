@@ -90,7 +90,7 @@ PASSWORD - raspberry
 
 ### STEP 03: Connect to your Raspberry Pi using VNC
 
-**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, while going through the setup wizard you will get asked about the `boot environment`. If you want to control your Raspberry Pi via VNC, you may want to choose one of the `desktop` or `desktop autologin` options. This way Patchbox OS will initiate the graphical interface automatically on system startup. Otherwise, you will have to initiate it manually by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi.
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a> and did not chose `desktop` or `desktop autologin` as the `boot environment`, you can still initiate the graphical interface by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi. You can also change the `boot environment` settings by running `patchbox` command and choosing the parameter you want to change.
 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
