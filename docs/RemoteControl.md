@@ -81,7 +81,7 @@ PASSWORD - raspberry
 
 ### STEP 02: Install & enable VNC 
 
-**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, you may skip this step because VNC is enabled by default
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a>, you may skip this step because VNC is enabled by default
 
 1. In terminal (command) window run `sudo raspi-config`
 2. Select `Interfacing Options` and navigate to `VNC`
@@ -90,7 +90,7 @@ PASSWORD - raspberry
 
 ### STEP 03: Connect to your Raspberry Pi using VNC
 
-**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a> and did not chose `desktop` or `desktop autologin` as the `boot environment`, you can still initiate the graphical interface by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi. You can also change the `boot environment` settings by running `patchbox` command and choosing the parameter you want to change.
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a> and did not choose `desktop` or `desktop autologin` as the `boot environment`, you can still initiate the graphical interface by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi. You can also change the `boot environment` setting by running `patchbox` command and going to the 'boot' menu.
 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
