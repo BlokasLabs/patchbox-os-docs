@@ -64,15 +64,15 @@ MODEP (MOD DUO Emulator for Pi) is an emulator that will allow you to play aroun
 
 By the way, MOD DUO team has done a remarkable job for the whole Linux audio open-source community, so if you like this emulator you should go get <a href="https://www.moddevices.com/" target='_blank'>the real thing</a> 
 
-<a href="https://blokas.io/modep/docs/Setup/" target='_blank'>the MODEP setup</a>     
+Find the MODEP setup instructions <a href="https://blokas.io/modep/docs/Setup/" target='_blank'>here</a>.
 
-## ORAC
+## Orac
 
 Orac is a virtual modular system based on Pure Data and created by Mark Harris (TheTechnobear). It is easy to use on any computing platform and provides various features such as Presets and Midi Learn. Orac is flexible for users - lets you create your own audio modules, and extend the ecosystem of Orac.
 
 The Orac code is cross-platform and runs on the <a href="https://www.critterandguitari.com/organelle" target='_blank'>Organelle</a>, Raspberry Pi, <a href="https://bela.io" target='_blank'>Bela</a>, <a href="https://www.qubitelectronix.com/shop/nebulae" target='_blank'>Qubit Nebulae</a>, and <a href="https://github.com/mxmxmx/terminal_tedium" target='_blank'>Terminal Tedium</a>. For development purposes (only) Orac will also run on macOS.
 
-More info about <a href="https://github.com/TheTechnobear/Orac/wiki" target='_blank'>Orac</a> 
+More info about <a href="https://github.com/TheTechnobear/Orac/wiki" target='_blank'>Orac</a>.
 
 ## Pure Data
 
@@ -80,5 +80,4 @@ Pure Data is an open source visual programming environment and works on personal
 
 Pure Data (PD) enables everyone to create software graphically (without writing lines of code). PD can process and generate sound, video, 2D/3D graphics and other interfaces or MIDI inputs. It can easily work over local or remote networks and can integrate wearable equipment (motor systems, lighting rigs, etc.). PD can help you not only to realize complex systems for large-scale projects but also to learn the basics multimedia processing and visual programming methods. 
 
-More info about <a href="https://puredata.info/" target='_blank'>Pure Data</a> 
-
+More info about <a href="https://puredata.info/" target='_blank'>Pure Data</a>.

@@ -1,6 +1,6 @@
 # Find the IP Address of the Raspberry Pi
 
-Knowing the IP address of the Raspberry Pi is important if you want to connect to it from another device in order to control it remotely. There are few different ways to find it. Follow the steps listed below and get it done!
+Knowing the IP address of the Raspberry Pi is important if you want to connect to it from another device in order to control it remotely. There are a few different ways to find it. Follow the steps listed below and get it done!
 
 Your Raspberry Pi may have a different IP address depending on whether it’s connected to a Wi-Fi or via Ethernet. The IP address might even change from time to time, so if you ever find yourself unable to connect, make sure the IP address you are using is correct!
 

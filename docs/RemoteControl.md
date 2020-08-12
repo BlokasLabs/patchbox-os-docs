@@ -2,11 +2,23 @@
 
 If you do not have a spare monitor and a keyboard or just want to try something new - there are two different ways to remotely control your Raspberry Pi: via SSH (Secure Shell) or via VNC (Virtual Network Computing). Follow the steps listed below and get it done!
 
+<pre>
+DEFAULT USERNAMES & PASSWORDS
+
+Patchbox OS: 
+USERNAME - patch
+PASSWORD - blokaslabs
+
+Raspberry Pi OS: 
+USERNAME - pi
+PASSWORD - raspberry
+</pre>
+
 ## SSH (Secure Shell)
 
 ### STEP 01: Enable SSH
 
-**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">the Patchbox OS</a>, you may skip this step because SSH is enabled by default
+**Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a>, you may skip this step because SSH is enabled by default.
 
 **Option 01: using your computer**
 
@@ -85,13 +97,14 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
 4. When asked, enter the username and password
 
-        DEFAULT USERNAMES & PASSWORDS   
+<pre>
+DEFAULT USERNAMES & PASSWORDS
 
-        Raspberry Pi OS: 
-        USERNAME - pi
-        PASSWORD - raspberry
+Patchbox OS: 
+USERNAME - patch
+PASSWORD - blokaslabs
 
-        Patchbox OS: 
-        USERNAME - patch
-        PASSWORD - blokaslabs
-
+Raspberry Pi OS: 
+USERNAME - pi
+PASSWORD - raspberry
+</pre>

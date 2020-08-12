@@ -38,7 +38,7 @@ You may give the image a try even if you don’t have a Pisound yet. The configu
 The very first time you login to the PatchboxOS, the setup wizard will run to help set things up. 
 You will be asked to change your password, set the audio card up, the target boot environment and WiFi connection.
 
-A few tips which can be useful while going through the set up wizard:
+A few tips which can be useful while going through the setup wizard:
 
 - While going through the setup wizard you will be asked to choose the audio card you want to use. If you want to use Pisound, attach it to your Raspberry Pi before plugging it in. 
 - PatchboxOS username - `**patch**`; password - `**blokaslabs**`

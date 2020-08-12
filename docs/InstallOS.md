@@ -1,6 +1,6 @@
 # Install the Operating System to the SD Card
 
-To write an OS image to the SD Card for use with your Raspberry Pi, we recommend using the balenaEtcher software. Follow the steps listed below and get it done!
+To write an OS image to the SD card for use with your Raspberry Pi, we recommend using the balenaEtcher software. Follow the steps listed below and get it done!
 
 **Note:** All existing data on the SD card will be lost once the OS image flashing process is started.
 
@@ -38,7 +38,7 @@ To write an OS image to the SD Card for use with your Raspberry Pi, we recommend
 2. Launch balenaEtcher
 3. Click **Flash from file** and select the file you want to upload (e.g. `2020-03-14-Patchbox.img`)
 4. Click **Select target** and choose your SD card
-5. Now click **Flash!** to write the image file on the SD card
+5. Now click **Flash!** to write the image file to the SD card
 6. When done, safely remove the SD card, insert it into your Raspberry Pi and power it on.
 
 **Note:** If you want to flash another SD card with the same image, insert it and click **Flash Another**.
