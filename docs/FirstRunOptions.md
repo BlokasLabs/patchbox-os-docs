@@ -2,7 +2,7 @@
 
 The first run of the Patchbox OS is super easy. Not only because it has the initial [setup wizard](SetupWizard.md) which helps you to set things up, but also it has SSH and VNC enabled by default, so [the remote control of the Raspberry Pi](RemoteControl.md) can be initiated with only one command. Choose the option which suits you best, follow the steps listed below and get it done!
 
-**You may give the image a try even if you don't have <a href="https://blokas.io/pisound/" target="_blank">the Pisound</a> yet - the configuration tool allows for an easy configuration of the audio device. You may use built-in, USB or other audio cards.**
+**You may give the image a try even if you don't have a <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> yet - the configuration tool allows for an easy configuration of the audio device. You may use built-in, USB or other audio cards.**
 
 ## Option 01: using a monitor and a keyboard
 

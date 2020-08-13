@@ -44,6 +44,6 @@ The configuration utility source code is available <a href="https://github.com/B
 
 ---
 
-<big>Never used the Raspberry Pi before? Head straight to the [Essentials of the Raspberry Pi](InstallOS.md)! </big>
+<big>Never used the Raspberry Pi before? Head straight to the [Raspberry Pi Essentials](InstallOS.md)! </big>
 
 <big>Want to try the Patchbox OS? Head straight to the [First Run](FirstRunOptions.md) section!</big>

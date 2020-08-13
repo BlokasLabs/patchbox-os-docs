@@ -54,7 +54,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 3. Open the Termius App
 4. Enter an alias of your choosing
 5. Enter the IP address under the hostname
-6. Complete the username and password fields and hit **Save**
+6. Complete the username and the password fields and hit **Save**
 
 ## VNC (Virtual Network Computing)
 
@@ -88,4 +88,4 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
 3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
-4. When asked, enter the username and password
+4. When asked, enter the username and the password
