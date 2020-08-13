@@ -1,6 +1,6 @@
 docs_dir: 'docs'
 site_dir: 'site'
-site_name: Patchbox OS Docs
+site_name: Patchbox OS Documentation
 site_author: UAB VILNIAUS BLOKAS
 google_analytics: ['UA-44135535-1', 'auto']
 use_directory_urls: false
@@ -13,11 +13,10 @@ theme:
     primary: 'white'
     accent: 'white'
   custom_dir: 'blokas-docs-theme'
-#extra_css:
-#  - 'assets/stylesheets/style.css'
 site_url: https://blokas.io/patchbox-os/docs/
 extra:
-  #discourse: 'https://community.blokas.io/'
+  # discourse: 'https://community.blokas.io/'
+  # disqus: 'fake'
   social:
     - type: 'github'
       link: 'https://github.com/BlokasLabs'

@@ -1,6 +1,7 @@
 # Creating a Module
 
-**Note:** For a reference you can find all the officialy supported modules and their files <a href="https://github.com/BlokasLabs/patchbox-modules" target="_blank">here</a>. 
+**Note:** For a reference you can find all the officialy supported modules and their files <a href="https://github.com/BlokasLabs/patchbox-modules" target="_blank">here</a>.
+
 
 ## patchbox-module.json
 

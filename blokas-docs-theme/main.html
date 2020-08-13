@@ -1,7 +1,23 @@
 {% extends "base.html" %}
 
 {% block disqus %}
-  {% if config.extra.disqus %}
-    {% include "partials/disqus.html" %}
+  {% if config.extra.discourse and config.extra.disqus %}
+    {% include "partials/integrations/discourse.html" %}
   {% endif %}
+{% endblock %}
+
+
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/blokas-main.css">
+  <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/blokas-docs.css">
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 384943, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
 {% endblock %}
