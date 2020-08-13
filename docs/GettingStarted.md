@@ -9,7 +9,7 @@ You can go try them even if your Pisound is still on it’s way!
 
 These step will help you install the OS image on the SD card for an easy OS transfer to your Raspberry Pi.  
 
-### STEP 01: Install Etcher
+### Step 01: Install Etcher
 
 **Windows**  
 
@@ -31,12 +31,12 @@ These step will help you install the OS image on the SD card for an easy OS tran
 2. App images are self-contained runtimes that do not require manual installation or root. They will run on pretty much every distro out there
 3. After the download is complete, double-click the image to run it
 
-### STEP 02: Download OS image
+### Step 02: Download OS image
 
-1. Download a copy of the OS image you want to install (the PatchboxOS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank"> here</a>)
+1. Download a copy of the OS image you want to install (the Patchbox OS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank"> here</a>)
 2. Unzip the file after it has downloaded
 
-### STEP 03: Select the image
+### Step 03: Select the image
 
 1. Attach your SD card to the computer
 2. Launch Etcher
@@ -106,7 +106,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### SSH (Secure Shell)
 
-### STEP 01: Enable SSH
+### Step 01: Enable SSH
 
 **Option 01: using your computer**
 
@@ -124,7 +124,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 4. Select `Interfacing Options` and navigate to `SSH`
 5. Choose `Yes`, `Ok` and `Finish`
 
-### STEP 02: Connect to Raspberry Pi using SSH
+### Step 02: Connect to Raspberry Pi using SSH
 
 Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and you know the IP address of your Raspberry Pi! 
 
@@ -156,7 +156,7 @@ Make sure your Raspberry Pi is connected to your local network using an Ethernet
 
                     Rasbian username - pi; password - raspberry; 
 
-                    PatchboxOS username - patch; password - blokaslabs;
+                    Patchbox OS username - patch; password - blokaslabs;
 
                     MODEP username - modep; password - blokaslabs;
 
@@ -164,7 +164,7 @@ Make sure your Raspberry Pi is connected to your local network using an Ethernet
 
 ### VNC (Virtual Network Computing)
 
-### STEP 01: Connect to a shell on the Raspberry Pi
+### Step 01: Connect to a shell on the Raspberry Pi
 
 **Option 01: remotely via SSH**
 
@@ -177,13 +177,13 @@ Make sure your Raspberry Pi is connected to your local network using an Ethernet
 2. Power it on and wait for it to boot
 3. Open a terminal (command) window
 
-### STEP 02: Install & enable VNC
+### Step 02: Install & enable VNC
 
 1. In terminal (command) window enter `sudo raspi-config`
 2. Select `Interfacing Options` and navigate to `VNC`
 3. Choose `Yes`, `Ok` and `Finish`
 
-### STEP 03: Connect to your Raspberry Pi using VNC
+### Step 03: Connect to your Raspberry Pi using VNC
 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
@@ -194,7 +194,7 @@ Make sure your Raspberry Pi is connected to your local network using an Ethernet
 
                     Rasbian username - pi; password - raspberry; 
 
-                    PatchboxOS username - patch; password - blokaslabs;
+                    Patchbox OS username - patch; password - blokaslabs;
 
                     MODEP username - modep; password - blokaslabs;
 

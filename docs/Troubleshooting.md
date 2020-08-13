@@ -15,7 +15,7 @@ To dig a bit deeper, run `sudo systemctl` and use up/down keys to scroll through
 
 Once you spot the failed service (let’s use ‘jack.service’ as an example), run `sudo systemctl status jack.service` to get a summary of the service status. If it did not provide enough information to know what’s up, then you can check the logs of the service by running `sudo journalctl -u jack.service`, hit the ‘End’ key on your keyboard to get to the very latest lines - the journal may contain data for many days.
 
-### Key PatchboxOS services
+## Key Patchbox OS services
 
 **amidiauto.service** - the automatic MIDI interconnection service.
 
@@ -27,4 +27,4 @@ Once you spot the failed service (let’s use ‘jack.service’ as an example),
 
 **touchosc2midi.service** - the TouchOSC2MIDI bridge service. If it is not running, TouchOSC Apps will not work.
 
-**wifi-hotspot.service** - this service is used to control whether PatchboxOS behaves as a WiFi hotspot and it is used to set the desired behavior.
+**wifi-hotspot.service** - this service is used to control whether Patchbox OS behaves as a WiFi hotspot and it is used to set the desired behavior.

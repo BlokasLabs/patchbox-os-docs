@@ -5,7 +5,7 @@
 The Patchbox OS is built around the concept of modules that effortlessly turns your Raspberry Pi into a standalone music\* box.
 
 
-<sup>\* Not really restricted to music. 😉</sup>
+** * ** Not really restricted to music. 😉
 
 The Patchbox OS has a built-in **Module Manager** which helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
@@ -28,7 +28,7 @@ autostart stuff. One may easily switch to another module, repurposing the system
 
 A Patchbox Module consists of a module definition file (`patchbox-module.json`), a couple of scripts and any necessary config files.
 
-This is a simple <a href="https://github.com/BlokasLabs/sine-module" target='_blank'>Sine Wave generator module</a> which shows how easy it is to import a new module.
+This is a simple <a href="https://github.com/BlokasLabs/sine-module" target='_blank'>Sine Wave generator module</a> which shows how easy it is to create and import a new module.
 
 This Sine Wave generator module can work as an audio test for your Pisound. 
 

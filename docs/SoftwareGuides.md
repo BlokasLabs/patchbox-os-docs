@@ -79,8 +79,8 @@ Check out the Examples section at the bottom area for more stuff to try out!
 
 ## TouchOSC2MIDI
 
-<a href="https://github.com/velolala/touchosc2midi" target="_blank">TouchOSC2MIDI</a> is a background process that translates <a href="https://hexler.net/software/touchosc" target="_blank">TouchOSC</a> compatible App interactions on your mobile device to MIDI messages on the PatchboxOS.
+<a href="https://github.com/velolala/touchosc2midi" target="_blank">TouchOSC2MIDI</a> is a background process that translates <a href="https://hexler.net/software/touchosc" target="_blank">TouchOSC</a> compatible App interactions on your mobile device to MIDI messages on the Patchbox OS.
 
-To use it, PatchboxOS must be connected to a local network or act as a WiFi hotspot. Your portable device must be connected to the same network. Open the TouchOSC app settings, and enter the IP of PatchboxOS device into ‘TouchOSC Bridge’ setting. If your network configuration permits it, the PatchboxOS may be auto-detected within the settings.
+To use it, Patchbox OS must be connected to a local network or act as a WiFi hotspot. Your portable device must be connected to the same network. Open the TouchOSC app settings, and enter the IP of Patchbox OS device into ‘TouchOSC Bridge’ setting. If your network configuration permits it, the Patchbox OS may be auto-detected within the settings.
 
 After the IP is set up, you may use the app to control audio software just as if you were using a MIDI controller.

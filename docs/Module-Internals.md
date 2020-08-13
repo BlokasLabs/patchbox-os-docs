@@ -1,10 +1,17 @@
-### patchbox-module.json
+# Creating a Module
+
+**Note:** For a reference you can find all the officialy supported modules and their files <a href="https://github.com/BlokasLabs/patchbox-modules" target="_blank">here</a>. 
+
+## patchbox-module.json
 
 `patchbox-module.json` is the most important file of a Patchbox Module. It contains essential information, like version info, display name, as well as the technical details like the various scripts for installing, launching, stopping and the list of system services the module depends on.
 
 See the complete reference [here](patchbox-module-json.md).
 
-### Install Script
+See MODEP `patchbox-module.json` file as an example <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json" target="_blank">here</a>.
+
+
+## Install Script
 The provided install script should install any necessary software and files for the module to run. Debian packages are preferred for this. We may be able to provide hosting for your Debian package, if you think it should be on <a href="http://apt.blokas.io/" target="_blank">http://apt.blokas.io/</a>, please contact us!
 
 Of course your script may compile the source code if it must, but ideally, it shouldn't take too long to complete.
@@ -13,10 +20,10 @@ In case the script exits with non 0 value, the installation is considered failed
 
 If the `version` in the `patchbox-module.json` was incremented since the last time a module was installed, the install script will run again, and should be capable of upgrading the installed older version.
 
-See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/install.sh" target="_blank">MODEP</a> for an example install script.
+See MODEP `install.sh` for an example install script <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/install.sh" target="_blank">here</a>.
 
 
-### Launch Script & Services
+## Launch Script & Services
 
 A launcher script can be provided to start the desired software, especially if it must do something non-trivial. The script is invoked with the configured argument, if `launch_mode` is set to require one. 
 
@@ -28,7 +35,7 @@ See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/pa
 
 See <a href="https://www.freedesktop.org/software/systemd/man/systemd.service.html" target="_blank">systemd documentation</a> for information on its syntax and capabilities.
 
-### List Script
+## List Script
 
 A list script can be set to provide possible start arguments for the module, usually a path to the patch/file to be started with the module.
 
@@ -36,13 +43,13 @@ The script should output the selections with one item per line.
 
 See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/list.sh" target="_blank">Pure Data</a> for an example script.
 
-### Stop Script
+## Stop Script
 
 A stop script should stop the software that was started by the launch script. The systemd services are stopped automatically on module deactivation.
 
 See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata/stop.sh" target="_blank">Pure Data</a> for an exmaple script.
 
-### Custom Pisound Button Config
+## Custom Pisound Button Config
 
 It's possible to provide a custom configuration for the Pisound's button - upon activating a Patchbox Module, the custom config is activated. When the module is deactivated, the previous system-wide config gets restored.
 
@@ -50,7 +57,7 @@ To get custom button actions for your module, place the scripts that should get 
 
 Then create a `pisound-btn.conf`, referencing the custom button scripts using relative path to them in `pisound-btn`. 
 
-See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/pisound-btn.conf" target="_blank">Orac</a> for an example
+See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/pisound-btn.conf" target="_blank">Orac</a> for an example.
 
 And you have to mention this config availability in the `patchbox-module.json` file in the `depends_on` section:
 ```
@@ -66,7 +73,7 @@ And you have to mention this config availability in the `patchbox-module.json` f
 ```
 See ORAC's <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/patchbox-module.json#L12" target="_blank">patchbox-module.json</a> for an example.
 
-### Custom amidiauto Config
+## Custom amidiauto Config
 
 If your module requires particular MIDI routing rules to take place, a custom `amidiauto.conf` can be provided, to be enabled automatically on module activation. The previous config gets restored
 automatically on module deactivation.

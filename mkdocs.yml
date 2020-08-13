@@ -49,17 +49,17 @@ markdown_extensions:
 copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
 
 pages:
-- Patchbox OS: index.md
-- Essentials of the Raspberry Pi: 
+- Introduction: index.md
+- Raspberry Pi Essentials: 
     - Install the Operating System on the SD Card: InstallOS.md
     - Find the IP Address of the Raspberry Pi: FindTheIP.md
     - Remote Control Options for the Raspberry Pi: RemoteControl.md
-- First Run of the Patchbox OS: 
+- First Run: 
     - First Run Options: FirstRunOptions.md
     - Setup Wizard: SetupWizard.md
 - Modules: 
     - Modules: Modules.md
-    - Module Internals: Module-Internals.md
+    - Creating a Module: Module-Internals.md
     - patchbox-module.json reference: patchbox-module-json.md
 - Software Guides: SoftwareGuides.md
 - amidiauto: amidiauto.md

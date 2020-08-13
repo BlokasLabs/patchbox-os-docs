@@ -1,4 +1,4 @@
-* [PatchboxOS](index)
+* [Patchbox OS](index)
 * [[GettingStarted]]
 * [[SoftwareGuides]]
 * [[amidiauto]]

@@ -1,12 +1,11 @@
-# Patchbox OS
+# Introduction to Patchbox OS
 
 ![](https://raw.githubusercontent.com/wiki/BlokasLabs/patchbox-os-gen/images/PatchboxOS.png)
 
 The Patchbox OS is an OS image based on Raspberry Pi OS Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you to set the system up, including configuring the Jack backend parameters and connecting to a Wi-Fi network.
 
-**You may give the image a try even if you don't have a <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> yet - the configuration tool allows for an easy configuration of the audio device, so you may use built-in, USB or other audio cards.**
+**You may give the image a try even if you don't have a <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> sound card yet - the configuration tool allows for an easy configuration of the audio device, so you may use built-in, USB or other audio cards.**
 
-**Note:** The default user name is ‘**patch**’ and its password is '**blokaslabs**'. The Wi-Fi hotspot is called ‘**Patchbox**’ (enabled by default) and the password is also ‘**blokaslabs**’.
 
 ## Module Manager
 
@@ -47,4 +46,4 @@ The configuration utility source code is available <a href="https://github.com/B
 
 <big>Never used the Raspberry Pi before? Head straight to the [Essentials of the Raspberry Pi](InstallOS.md)! </big>
 
-<big>Want to try the Patchbox OS? Head straight to the [First Run](FirstRunOptions.md)!</big>
+<big>Want to try the Patchbox OS? Head straight to the [First Run](FirstRunOptions.md) section!</big>

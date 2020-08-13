@@ -6,7 +6,7 @@ Your Raspberry Pi may have a different IP address depending on whether it’s co
 
 **Important: make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi.**
 
-### Option 01: using the Pisound App (Android)
+## Option 01: using the Pisound App (Android)
 
 **Note:** This option is only suitable if you are using a <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> - an ultra-low latency high-quality sound card and MIDI interface specially designed for Raspberry Pi pocket computers. 
 
@@ -16,21 +16,21 @@ Your Raspberry Pi may have a different IP address depending on whether it’s co
 4. Launch the Pisound App on your device and connect to your Pisound via Bluetooth
 5. Visit the Home tab, the IP address will be displayed below the Pisound’s serial number
 
-### Option 02: using a monitor and a keyboard
+## Option 02: using a monitor and a keyboard
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
 3. Open a terminal (command) window and run `ifconfig`
 4. In the output you will see the `inet addr` line displaying the IP (e.g. 192.168.1.10)
 
-### Option 03: using the Fing app (Android or iOS)
+## Option 03: using the Fing app (Android or iOS)
 
 1. Connect your tablet/smartphone to the same Network as Raspberry Pi
 2. Download the Fing app: <a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing" target="_blank">Android</a> or <a href="https://itunes.apple.com/gb/app/fing-network-scanner/id430921107?mt=8" target="_blank">iOS</a>
 3. Press “**Scan for devices**” on the top of the screen (right under the name of your Wi-Fi hotspot)
 4. Scroll down to the entry with the hostname of your Raspberry Pi. The IP address is displayed bellow the hostname
 
-### Option 03: using your computer & ping command
+## Option 03: using your computer & ping command
 
 1. Connect your computer to the same Network as Raspberry Pi
 2. Open a terminal (command) window and run  `ping your_hostname.local`
@@ -42,7 +42,7 @@ Your Raspberry Pi may have a different IP address depending on whether it’s co
 
 **Note:** On Windows PC, mDNS driver is required for .local addresses to work, you may install <a href="https://support.apple.com/kb/DL999?locale=en_US" target="_blank">this driver</a>.
 
-### Option 04: using your computer & Angry IP Scanner
+## Option 04: using your computer & Angry IP Scanner
 
 1. Download and install <a href="http://angryip.org/" target="_blank">Angry IP Scanner</a> 
 2. Connect your computer to the same Network as Raspberry Pi
