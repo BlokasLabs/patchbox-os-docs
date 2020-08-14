@@ -51,8 +51,8 @@ pages:
 - Introduction: index.md
 - Raspberry Pi Essentials: 
     - Install the Operating System on the SD Card: InstallOS.md
-    - Find the IP Address of the Raspberry Pi: FindTheIP.md
-    - Remote Control Options for the Raspberry Pi: RemoteControl.md
+    - Find the IP Address: FindTheIP.md
+    - Remote Control Options: RemoteControl.md
 - First Run: 
     - First Run Options: FirstRunOptions.md
     - Setup Wizard: SetupWizard.md
