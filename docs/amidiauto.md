@@ -23,17 +23,18 @@ This takes care of a lot of use cases. However, it might not suit some more adva
 **Enabling `amidiauto`**
 
 It can be enabled by running:
+
 ```
-    sudo systemctl enable amidiauto
-    sudo systemctl start amidiauto
+sudo systemctl enable amidiauto
+sudo systemctl start amidiauto
 ```
 
 **Disabling `amidiauto`**
 
 It can be enabled by running:
 ```
-    sudo systemctl stop amidiauto
-    sudo systemctl disable amidiauto
+sudo systemctl stop amidiauto
+sudo systemctl disable amidiauto
 ```
 
 ## Contributing

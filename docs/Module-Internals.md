@@ -1,7 +1,6 @@
 # Creating a Module
 
-**Note:** For a reference you can find all the officialy supported modules and their files <a href="https://github.com/BlokasLabs/patchbox-modules" target="_blank">here</a>.
-
+**Note:** For reference you can find all the officialy supported modules and their source files <a href="https://github.com/BlokasLabs/patchbox-modules" target="_blank">here</a>.
 
 ## patchbox-module.json
 
@@ -79,7 +78,7 @@ See ORAC's <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/o
 If your module requires particular MIDI routing rules to take place, a custom `amidiauto.conf` can be provided, to be enabled automatically on module activation. The previous config gets restored
 automatically on module deactivation.
 
-To get custom `amidiauto.conf`, first create it in your module source, see <a href= "https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/amidiauto.conf" target="_blank">Orac</a> for an example.
+To get custom `amidiauto.conf`, first create it in your module source tree, see <a href= "https://github.com/BlokasLabs/patchbox-modules/blob/master/orac/amidiauto.conf" target="_blank">Orac</a> for an example.
 
 Then you have to reference it in the `depends_on` section of the `patchbox-module.json`:
 

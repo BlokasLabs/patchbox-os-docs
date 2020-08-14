@@ -2,9 +2,9 @@
 
 Knowing the IP address of the Raspberry Pi is important if you want to connect to it from another device in order to control it remotely. There are a few different ways to find it. Follow the steps listed below and get it done!
 
-Your Raspberry Pi may have a different IP address depending on whether it’s connected to a Wi-Fi or via Ethernet. The IP address might even change from time to time, so if you ever find yourself unable to connect, make sure the IP address you are using is correct!
+Your Raspberry Pi may have a different IP address depending on whether it’s connected to Wi-Fi or via Ethernet. The IP address might even change from time to time, so if you ever find yourself unable to connect, make sure the IP address you are using is correct!
 
-**Important: make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi.**
+**Important: make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi.**
 
 ## Option 01: using the Pisound App (Android)
 
@@ -33,7 +33,9 @@ Your Raspberry Pi may have a different IP address depending on whether it’s co
 ## Option 03: using your computer & ping command
 
 1. Connect your computer to the same Network as Raspberry Pi
-2. Open a terminal (command) window and run  `ping your_hostname.local`
+2. Open a terminal (command) window and run  `ping your_hostname.local` (see below notes)
+    1. Replace `your_hostname.local` with `patchbox.local` or `raspberry.local`.
+    1. If you've changed the system's hostname, use it with `.local` appended.
 3. If the Raspberry Pi is reachable, ping will show its IP address, e.g:
 
     `PING your_hostname.local (192.168.1.33): 56 data bytes`

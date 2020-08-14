@@ -6,7 +6,6 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 <script src="https://gist.github.com/pranciskus/dd84ef5a7aea50a3fe561808699a7b90.js"></script>
 
-
 ## SSH (Secure Shell)
 
 ### Step 01: Enable SSH
@@ -31,12 +30,12 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### Step 02: Connect to your Raspberry Pi using SSH
 
-**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
+**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
   
 **Option 01: using Windows, Linux or macOS computer**
 
 1. Connect your computer to the same Network as your Raspberry Pi
-2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
+2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md) and the correct [credentials](#default-credentials))
 
 **Option 02: using Android or iOS device**
 
@@ -45,7 +44,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 3. Open the Termius App
 4. Enter an alias of your choosing
 5. Enter the IP address under the hostname
-6. Complete the username and the password fields and hit **Save**
+6. Complete the username and the password fields and hit **Save** (see [here](#default-credentials) for default username and password)
 
 ## VNC (Virtual Network Computing)
 
@@ -76,7 +75,9 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 **Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a> and did not choose `desktop` or `desktop autologin` as the `boot environment`, you can still initiate the graphical interface by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi. You can also change the `boot environment` setting by running `patchbox` command and going to the 'boot' menu.
 
-1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi
+1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
 3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
 4. When asked, enter the username and the password
+
+<script src="https://gist.github.com/pranciskus/dd84ef5a7aea50a3fe561808699a7b90.js"></script>
