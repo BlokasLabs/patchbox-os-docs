@@ -27,12 +27,12 @@ To write an OS image to the SD card for use with your Raspberry Pi, we recommend
 3. To make the file executable, run `chmod +x file_name`
 3. Double-click the AppImage to run it
 
-## Step 02: Download the OS image
+## Step 02: Download the OS Image
 
 1. Download a copy of the OS image you want to install (the Patchbox OS image can be downloaded <a href="https://blokas.io/patchbox-os/" target="_blank">here</a>)
 2. Unzip the file after it has downloaded
 
-## Step 03: Flash the SD card 
+## Step 03: Flash the SD Card 
 
 1. Insert the SD card to your computer's SD card reader
 2. Launch balenaEtcher

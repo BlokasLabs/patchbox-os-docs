@@ -12,7 +12,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 **Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a>, you may skip this step because SSH is enabled by default.
 
-**Option 01: using your computer**
+**Option 01: Using Your Computer**
 
 1. Insert the SD card to your computer's SD card reader
 2. Navigate to the boot partition of the SD card (boot partition is the smaller one)
@@ -20,7 +20,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 4. Safely remove the SD card and insert it into your Raspberry Pi
 5. When the Raspberry Pi boots, it looks for the `ssh` file and if it is found, SSH is enabled and the file is deleted
 
-**Option 02: using a monitor and a keyboard**
+**Option 02: Using a Monitor and a Keyboard**
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
@@ -28,16 +28,16 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 4. Select `Interfacing Options` and navigate to `SSH`
 5. Choose `Yes`, `Ok` and `Finish`
 
-### Step 02: Connect to your Raspberry Pi using SSH
+### Step 02: Connect to Your Raspberry Pi Using SSH
 
 **Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
   
-**Option 01: using Windows, Linux or macOS computer**
+**Option 01: Using Windows, Linux or macOS Computer**
 
 1. Connect your computer to the same Network as your Raspberry Pi
 2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md) and the correct [credentials](#default-credentials))
 
-**Option 02: using Android or iOS device**
+**Option 02: Using Android or iOS Device**
 
 1. Download <a href="http://www.termius.com/" target="_blank">the Termius App</a> 
 2. Connect your device to the same Network as your Raspberry Pi
@@ -48,21 +48,21 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ## VNC (Virtual Network Computing)
 
-### Step 01: Connect to a shell on your Raspberry Pi
+### Step 01: Connect to a Shell on Your Raspberry Pi
 
-**Option 01: remotely via SSH**
+**Option 01: Remotely via SSH**
 
 1. Connect your computer to the same Network as your Raspberry Pi
 2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
 
-**Option 02: using a monitor and a keyboard**
+**Option 02: Using a Monitor and a Keyboard**
 
 1. Connect a monitor and a keyboard to your Raspberry Pi
 2. Power it on and wait for it to boot
 3. Open a terminal (command) window
 
 
-### Step 02: Install & enable VNC 
+### Step 02: Install & Enable VNC 
 
 **Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a>, you may skip this step because VNC is enabled by default
 
@@ -71,7 +71,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 3. Choose `Yes`, `Ok` and `Finish`
 
 
-### Step 03: Connect to your Raspberry Pi using VNC
+### Step 03: Connect to Your Raspberry Pi Using VNC
 
 **Note:** If you are using <a href="https://blokas.io/patchbox-os/" target="_blank">Patchbox OS</a> and did not choose `desktop` or `desktop autologin` as the `boot environment`, you can still initiate the graphical interface by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi. You can also change the `boot environment` setting by running `patchbox` command and going to the 'boot' menu.
 
