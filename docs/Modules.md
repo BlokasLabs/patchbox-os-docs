@@ -5,7 +5,7 @@
 The Patchbox OS is built around the concept of modules that effortlessly turns your Raspberry Pi into a standalone music\* box.
 
 
-** * ** Not really restricted to music. 😉
+__*__ Not really restricted to music. 😉
 
 The Patchbox OS has a built-in **Module Manager** which helps to minimize the software setup and manual configuration, provides an easy way to switch between installed projects without the need to manually change system-wide settings.
 
@@ -28,31 +28,32 @@ autostart stuff. One may easily switch to another module, repurposing the system
 
 A Patchbox Module consists of a module definition file (`patchbox-module.json`), a couple of scripts and any necessary config files.
 
-This is a simple <a href="https://github.com/BlokasLabs/sine-module" target='_blank'>Sine Wave generator module</a> which shows how easy it is to create and import a new module.
+This is a simple <a href="https://github.com/BlokasLabs/sine-module" target='_blank'>Sine Wave generator module</a> which shows how easy it is to create, import and manage a new module.
 
-This Sine Wave generator module can work as an audio test for your Pisound. 
+This module can work as an audio test for your <a href="https://blokas.io/pisound/" target="_blank">Pisound</a> (or any other sound card).
 
-**Install and Activate the Module**
+**Important: Make sure `patchbox --version` is `1.1.3` or greater. If it is not, run `patchbox update`**
 
-1. Make sure `patchbox --version` is `1.1.3` or greater. If it is not, run `patchbox update`
-2. To install the module, run
+- To install the module, run
     ```
     patchbox module install https://github.com/BlokasLabs/sine-module
     ```
-3. To activate the module, run (can be done via GUI too)
+- To activate the module, run (can be done via GUI too)
     ``` 
     patchbox module activate sine-module
     ```
-4. You should hear a 440Hz sine wave. The frequency can be changed by clicking The Button on Pisound different number of times.
-5. To deactivate the module, run
+
+**You should hear a 440Hz sine wave. The frequency can be changed by clicking The Button on Pisound different number of times.**
+
+- To deactivate the module, run
     ```
     patchbox module deactivate
     ```
 
-*it also can be done by opening `patchbox` `modules` menu and selecting `none` module   
+__*__ it can also be done by opening `patchbox` `modules` menu and selecting `none` module   
 
 
-**For more information about how the modules work and how to create one, see the [Module Internals](Module-Internals.md) page.**
+**For more information about how the modules work and how to create one, see the [Creating a Module](Module-Internals.md) page.**
 
 
 ## MODEP

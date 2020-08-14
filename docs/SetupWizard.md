@@ -16,9 +16,9 @@ A few tips which can be useful while going through the setup wizard:
 | Buffer size (-p)   |   128   |                  512                    |       512        |
 | Period (-n)        |    2    |                   3                     |        3         |
 
-*The Raspberry Pi’s built-in jack produces audio using PWM and has output resolution of 11 bits.
+__*__ The Raspberry Pi’s built-in jack produces audio using PWM and has output resolution of 11 bits.
 
-**USB audio cards do not seem to work well with Pianoteq.
+__**__ USB audio cards do not seem to work well with Pianoteq.
 
 **Note:** Feel free to experiment with the Jack settings, like lowering the values for lower latency, the configuration tool makes a quick check of attempting to start the Jack backend, and if it fails to start, asks you to input new settings. If the server starts, but you are not getting any audio from audio software, see the [Troubleshooting](https://blokas.io/patchbox-os/docs/Troubleshooting/) section.
 

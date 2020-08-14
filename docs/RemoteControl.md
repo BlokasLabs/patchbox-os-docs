@@ -33,21 +33,12 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 **Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or a Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
   
-**Option 01: using Linux or macOS computer**
+**Option 01: using Windows, Linux or macOS computer**
 
 1. Connect your computer to the same Network as your Raspberry Pi
 2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
 
-
-**Option 02: using Windows computer**
-
-1. Download and install <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>
-2. Connect your computer to the same Network as Raspberry Pi
-3. Launch PuTTY client
-4. Enter the IP address and click **Open**
-
-
-**Option 03: using Android or iOS device**
+**Option 02: using Android or iOS device**
 
 1. Download <a href="http://www.termius.com/" target="_blank">the Termius App</a> 
 2. Connect your device to the same Network as your Raspberry Pi
