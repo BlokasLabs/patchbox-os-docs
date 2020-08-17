@@ -69,7 +69,5 @@ plugins:
         redirect_maps:
             'GettingStarted.md': 'first-run-options.md'
             'Module-Internals.md': 'creating-a-module.md'
-            'Modules.md': 'modules.md'
             'SoftwareGuides.md': 'software-guides.md'
-            'Troubleshooting.md': 'troubleshooting.md'
 
