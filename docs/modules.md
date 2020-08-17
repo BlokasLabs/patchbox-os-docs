@@ -53,7 +53,7 @@ You should hear a 440Hz sine wave. The frequency can be changed by clicking The 
     or simply run `patchbox`, go to `modules` menu and select `none` module.
 
 
-**For more information about how the modules work and how to create one, see the [Creating a Module](Module-Internals.md) page.**
+**For more information about how the modules work and how to create one, see the [Creating a Module](creating-a-module.md) page.**
 
 
 ## MODEP

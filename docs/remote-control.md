@@ -30,12 +30,12 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 ### Step 02: Connect to Your Raspberry Pi Using SSH
 
-**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and [you know the IP address of your Raspberry Pi](FindTheIP.md)!
+**Note:** Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi and [you know the IP address of your Raspberry Pi](find-the-ip-address.md)!
   
 **Option 01: Using Windows, Linux or macOS Computer**
 
 1. Connect your computer to the same Network as your Raspberry Pi
-2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md) and the correct [credentials](#default-credentials))
+2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](find-the-ip-address.md) and the correct [credentials](#default-credentials))
 
 **Option 02: Using Android or iOS Device**
 
@@ -53,7 +53,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 **Option 01: Remotely via SSH**
 
 1. Connect your computer to the same Network as your Raspberry Pi
-2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](FindTheIP.md))
+2. Open a terminal (command) window and run `ssh username@ip_address` (use [the IP address of your Raspberry Pi](find-the-ip-address.md))
 
 **Option 02: Using a Monitor and a Keyboard**
 
@@ -77,7 +77,7 @@ If you do not have a spare monitor and a keyboard or just want to try something 
 
 1. Make sure your Raspberry Pi is connected to your local network using an Ethernet cable or Wi-Fi
 2. Download the <a href="https://www.realvnc.com/en/connect/download/viewer/" target="_blank">RealVNC Viewer</a>
-3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](FindTheIP.md)
+3. Launch the RealVNC Viewer and enter [the IP address of your Raspberry Pi](find-the-ip-address.md)
 4. When asked, enter the username and the password
 
 <script src="https://gist.github.com/pranciskus/dd84ef5a7aea50a3fe561808699a7b90.js"></script>
