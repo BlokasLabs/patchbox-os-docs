@@ -3,7 +3,7 @@ site_dir: 'site'
 site_name: Patchbox OS Documentation
 site_author: UAB VILNIAUS BLOKAS
 google_analytics: ['UA-44135535-1', 'auto']
-use_directory_urls: false
+use_directory_urls: true
 theme:
   feature:
   name: 'material'
@@ -47,19 +47,24 @@ markdown_extensions:
 
 copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
 
-pages:
-- Introduction: index.md
-- Raspberry Pi Essentials: 
-    - Install the Operating System on the SD Card: InstallOS.md
-    - Find the IP Address: FindTheIP.md
-    - Remote Control Options: RemoteControl.md
-- First Run: 
-    - First Run Options: FirstRunOptions.md
-    - Setup Wizard: SetupWizard.md
-- Modules: 
-    - Modules: Modules.md
-    - Creating a Module: Module-Internals.md
-    - patchbox-module.json reference: patchbox-module-json.md
-- Software Guides: SoftwareGuides.md
-- amidiauto: amidiauto.md
-- Troubleshooting: Troubleshooting.md
+nav:
+  - Introduction: index.md
+  - Raspberry Pi Essentials: 
+      - Install the Operating System to the SD Card: InstallOS.md
+      - Find the IP Address: FindTheIP.md
+      - Remote Control Options: RemoteControl.md
+  - First Run: 
+      - First Run Options: FirstRunOptions.md
+      - Setup Wizard: SetupWizard.md
+  - Modules: 
+      - Modules: Modules.md
+      - Creating a Module: Module-Internals.md
+      - patchbox-module.json reference: patchbox-module-json.md
+  - Software Guides: SoftwareGuides.md
+  - amidiauto: amidiauto.md
+  - Troubleshooting: Troubleshooting.md
+
+plugins:
+  - redirects:
+        redirect_maps:
+            'GettingStarted.md': 'FirstRunOptions.md'
