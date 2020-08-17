@@ -50,21 +50,26 @@ copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
 nav:
   - Introduction: index.md
   - Raspberry Pi Essentials: 
-      - Install the Operating System to the SD Card: InstallOS.md
-      - Find the IP Address: FindTheIP.md
-      - Remote Control Options: RemoteControl.md
+      - Install the Operating System to the SD Card: install-os-to-sd-card.md
+      - Find the IP Address: find-the-ip-address.md
+      - Remote Control Options: remote-control.md
   - First Run: 
-      - First Run Options: FirstRunOptions.md
-      - Setup Wizard: SetupWizard.md
+      - First Run Options: first-run-options.md
+      - Setup Wizard: setup-wizard.md
   - Modules: 
-      - Modules: Modules.md
-      - Creating a Module: Module-Internals.md
+      - Modules: modules.md
+      - Creating a Module: creating-a-module.md
       - patchbox-module.json reference: patchbox-module-json.md
-  - Software Guides: SoftwareGuides.md
+  - Software Guides: software-guides.md
   - amidiauto: amidiauto.md
-  - Troubleshooting: Troubleshooting.md
+  - Troubleshooting: troubleshooting.md
 
 plugins:
   - redirects:
         redirect_maps:
-            'GettingStarted.md': 'FirstRunOptions.md'
+            'GettingStarted.md': 'first-run-options.md'
+            'Module-Internals.md': 'creating-a-module.md'
+            'Modules.md': 'modules.md'
+            'SoftwareGuides.md': 'software-guides.md'
+            'Troubleshooting.md': 'troubleshooting.md'
+
