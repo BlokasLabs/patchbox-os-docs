@@ -5,7 +5,6 @@ site_author: UAB VILNIAUS BLOKAS
 google_analytics: ['UA-44135535-1', 'auto']
 use_directory_urls: true
 theme:
-  feature:
   name: 'material'
   favicon: 'favicon.ico'
   logo: 'images/logo.svg'
@@ -28,7 +27,7 @@ repo_name: 'patchbox-os-gen-wiki'
 repo_url: 'https://github.com/BlokasLabs/patchbox-os-gen/'
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: '#'
   - pymdownx.arithmatex
   - pymdownx.betterem
   - pymdownx.caret
@@ -42,8 +41,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
-  - footnotes:
-      PLACE_MARKER: '///Footnotes Go Here///'
+  - footnotes
 
 copyright: '&copy; 2020 VILNIAUS BLOKAS UAB'
 
@@ -65,6 +63,7 @@ nav:
   - Troubleshooting: troubleshooting.md
 
 plugins:
+  - search
   - redirects:
         redirect_maps:
             'GettingStarted.md': 'first-run-options.md'
