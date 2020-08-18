@@ -1,5 +1,5 @@
 docs_dir: 'docs'
-site_dir: 'site'
+site_dir: '../../static/patchbox-os/docs'
 site_name: Patchbox OS Documentation
 site_author: UAB VILNIAUS BLOKAS
 google_analytics: ['UA-44135535-1', 'auto']
@@ -23,8 +23,8 @@ extra:
       link: 'https://twitter.com/blokaslabs'
     - type: 'facebook'
       link: 'https://www.facebook.com/blokaslabs/'
-repo_name: 'patchbox-os-gen-wiki'
-repo_url: 'https://github.com/BlokasLabs/patchbox-os-gen/'
+repo_name: 'patchbox-os-docs'
+repo_url: 'https://github.com/BlokasLabs/patchbox-os-docs/'
 markdown_extensions:
   - toc:
       permalink: '#'
