@@ -14,8 +14,8 @@ theme:
   custom_dir: 'blokas-docs-theme'
 site_url: https://blokas.io/patchbox-os/docs/
 extra:
-  # discourse: 'https://community.blokas.io/'
-  # disqus: 'fake'
+  discourse: 'https://community.blokas.io/'
+  disqus: 'fake'
   social:
     - type: 'github'
       link: 'https://github.com/BlokasLabs'
