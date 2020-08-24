@@ -46,7 +46,7 @@ The OS image comes bundled with a couple of example patches. Let’s give one of
 ```
 It is a rhythmic generative patch, you may then try playing around with the controls in the UI.
 
-Check out the <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_blank">Pisound App</a> too which has an integration with Pure Data patches, it can be used to switch between patches and control its parameters using your phone and allows integrating <a href="https://community.blokas.io/t/pure-data-patch-with-parameters-in-the-pisound-app/622" target="_blank">MIDI mappable controls</a>.
+Check out the <a href="https://blokas.io/pisound/docs/pisound-app/" target="_blank">Pisound App</a> too which has an integration with Pure Data patches, it can be used to switch between patches and control its parameters using your phone and allows integrating <a href="https://community.blokas.io/t/pure-data-patch-with-parameters-in-the-pisound-app/622" target="_blank">MIDI mappable controls</a>.
 
 
 ## Sonic Pi

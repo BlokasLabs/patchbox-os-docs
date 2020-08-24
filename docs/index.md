@@ -13,7 +13,7 @@ The Patchbox OS is built around the concept of [modules](modules.md). It helps t
 
 Currently available modules:
 
-- <a href="https://blokas.io/MODEP/" target="_blank">MODEP</a>
+- <a href="https://blokas.io/modep/" target="_blank">MODEP</a>
 - <a href="https://community.blokas.io/t/orac-2-0-for-the-raspberry-pi/1099" target="_blank">Orac</a>
 - <a href="https://puredata.info/" target='_blank'>Pure Data</a> 
 
@@ -29,7 +29,7 @@ The main highlights of the included software:
 - Jack backend 1.9.12
 - [Patchage 1.0.0](software-guides.md#patchage)
 - [Pianoteq Standard Trial 6.6.0](software-guides.md#pianoteq-standard-trial)
-- <a href="https://blokas.io/pisound/docs/Pisound-App/" target="_blank">Pisound software</a>
+- <a href="https://blokas.io/pisound/docs/pisound-app/" target="_blank">Pisound software</a>
 - [Pure Data 0.50.0](software-guides.md#pure-data)
 - [Super Collider 3.10.0](software-guides.md#supercollider)
 - [touchosc2midi 0.10.0](software-guides.md#touchosc2midi)
