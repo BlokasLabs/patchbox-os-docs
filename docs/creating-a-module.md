@@ -31,7 +31,7 @@ See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/puredata
 
 Alternatively, you may create systemd .service file(s) for your module and list them in the `services` section of the `patchbox-module.json`. These services will get started when activating the module. 
 
-See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json#L16" target="_blank">MODEP</a> module and its <a href="https://github.com/BlokasLabs/modep-debs/blob/master/modep-mod-ui/modep-mod-ui-1.8.0/debian/modep-mod-ui.service" target="_blank">modep-mod-ui.service</a> or <a href="https://github.com/BlokasLabs/modep-debs/blob/master/modep-mod-host/modep-mod-host-1.8.0/debian/modep-mod-host.service" target="_blank">modep-mod-host.service</a> for .service file examples. 
+See <a href="https://github.com/BlokasLabs/patchbox-modules/blob/master/modep/patchbox-module.json#L16" target="_blank">MODEP</a> module and its <a href="https://github.com/BlokasLabs/modep-debs/blob/master/modep-mod-ui/modep-mod-ui-1.8.1/debian/modep-mod-ui.service" target="_blank">modep-mod-ui.service</a> or <a href="https://github.com/BlokasLabs/modep-debs/blob/master/modep-mod-host/modep-mod-host-1.8.0/debian/modep-mod-host.service" target="_blank">modep-mod-host.service</a> for .service file examples. 
 
 See <a href="https://www.freedesktop.org/software/systemd/man/systemd.service.html" target="_blank">systemd documentation</a> for information on its syntax and capabilities.
 
