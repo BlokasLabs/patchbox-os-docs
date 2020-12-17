@@ -22,7 +22,7 @@ To write an OS image to the SD card for use with your Raspberry Pi, we recommend
 
 ### Linux
 
-1. Download the <a href="https://www.balena.io/etcher/" target="_blank">AppImage</a> file
+1. Download the balenaEtcher <a href="https://www.balena.io/etcher/" target="_blank">AppImage</a> file
 2. App images are self-contained runtimes that do not require manual installation
 3. To make the file executable, run `chmod +x file_name`
 3. Double-click the AppImage to run it
