@@ -68,6 +68,7 @@ nav:
   - Software Guides: software-guides.md
   - amidiauto: amidiauto.md
   - Troubleshooting: troubleshooting.md
+  - Telemetry: telemetry.md
 
 plugins:
   - search
