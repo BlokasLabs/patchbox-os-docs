@@ -1,5 +1,5 @@
 # Introduction to Patchbox OS
-![](/images/PatchboxOSTerminal.png)
+![](images/PatchboxOSTerminal.png)
 
 The Patchbox OS is an OS image based on Raspberry Pi OS Lite and preconfigured with audio software for a smooth user experience. On the first boot, a configuration wizard will run and help you to set the system up, including configuring the Jack backend parameters and connecting to a Wi-Fi network.
 
