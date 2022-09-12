@@ -16,20 +16,22 @@ Download <a href="https://blokas.io/patchbox-os/#patchbox-os-download" target="_
 
 **Note:** The default user name is ‘**patch**’ and its password is '**blokaslabs**'
 
-## Option 02: via an Ethernet Connection or a Local Wireless Network
+## Option 02: via Default Wi-Fi Hotspot*
+
+__*__ Raspberry Pi Zero W and Raspberry Pi 3 and newer models only.
+
+1. Connect to the Wi-Fi hotspot (it is enabled by default) named '**Patchbox**', password - '**blokaslabs**'
+2. Open a terminal (command) window on your computer and run `ssh patch@172.24.1.1` to start a shell session (if you did connect to other Wi-Fi hotspot, figure out [the IP address of your Raspberry Pi](find-the-ip-address.md) and use `ssh patch@ip_address`)
+
+**Note:** You will get asked if you want to connect to a Wi-Fi network during the initial setup wizard, once the connection is attempted, the SSH connection will drop. You may skip this step in order not to lose the connection.
+
+## Option 03: via an Ethernet Connection or a Local Wireless Network
+
+__*__ You can setup Raspberry Pi to auto-connect to your local Wi-Fi network following [this guide](https://howchoo.com/g/ndy1zte2yjn/how-to-set-up-wifi-on-your-raspberry-pi-without-ethernet). Once your Raspberry Pi boots, make sure to turn off the automatic 'Patchbox' Wi-Fi hotspot by holding down the Pisound button for 3 seconds. If you do not own Pisound, choose options 01 or 02 or use Ethernet cable.
 
 1. Connect your computer to the same Network as Raspberry Pi (via an Ethernet cable or a Wi-Fi)
 2. Open a terminal (command) window on your computer
 3. Run `ssh patch@ip_address` (use [the IP address of your Raspberry Pi](find-the-ip-address.md))
 
 **Note:** While going through the setup wizard you will get asked about the `boot environment`. If you want to control your Raspberry Pi via VNC, you may want to choose one of the `desktop` or `desktop autologin` options. This way Patchbox OS will initiate the graphical interface automatically on system startup. Otherwise, you will have to initiate it manually by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi.
-
-## Option 03: via Default Wi-Fi Hotspot*
-
-__*__ Raspberry Pi Zero W and Raspberry Pi 3 (and newer) models only.
-
-1. Connect to the Wi-Fi hotspot (it is enabled by default) named '**Patchbox**', password - '**blokaslabs**'
-2. Open a terminal (command) window on your computer and run `ssh patch@172.24.1.1` to start a shell session (if you did connect to other Wi-Fi hotspot, figure out [the IP address of your Raspberry Pi](find-the-ip-address.md) and use `ssh patch@ip_address`)
-
-**Note:** You will get asked if you want to connect to a Wi-Fi network during the initial setup wizard, once the connection is attempted, the SSH connection will drop. You may skip this step in order not to lose the connection.
 

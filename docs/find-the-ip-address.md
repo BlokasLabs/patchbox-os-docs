@@ -12,7 +12,7 @@ Your Raspberry Pi may have a different IP address depending on whether it’s co
 
 1. Download <a href="https://play.google.com/store/apps/details?id=com.blokas.pisoundctl" target="_blank">the Pisound App</a> 
 2. Attach your Pisound to your Raspberry Pi and power it on 
-3. Turn the discoverabilty on by holding The Pisound's Button for 3 seconds (<a href="https://blokas.io/pisound/docs/pisound-app/#connecting-to-the-raspberry-pi" target="_blank">how to connect to your Raspberry Pi using the Pisound App</a>)
+3. Turn the discoverabilty on by holding down The Pisound's Button for 1 second (<a href="https://blokas.io/pisound/docs/pisound-app/#connecting-to-the-raspberry-pi" target="_blank">how to connect to your Raspberry Pi using the Pisound App</a>)
 4. Launch the Pisound App on your device and connect to your Pisound via Bluetooth
 5. Visit the Home tab, the IP address will be displayed below the Pisound’s serial number
 
