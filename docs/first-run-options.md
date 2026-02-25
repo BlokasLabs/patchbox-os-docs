@@ -22,6 +22,8 @@ Download <a href="https://blokas.io/patchbox-os/#patchbox-os-download" target="_
 2. Open a terminal (command) window on your computer
 3. Run `ssh patch@ip_address` (use [the IP address of your Raspberry Pi](find-the-ip-address.md))
 
+**Note:** The default user name is '**patch**' and its password is '**blokaslabs**'. You will be prompted to change it during the [setup wizard](setup-wizard.md).
+
 **Note:** While going through the setup wizard you will get asked about the `boot environment`. If you want to control your Raspberry Pi via VNC, you may want to choose one of the `desktop` or `desktop autologin` options. This way Patchbox OS will initiate the graphical interface automatically on system startup. Otherwise, you will have to initiate it manually by running the `startx` command, either while connected via SSH or using a keyboard connected directly to the Raspberry Pi.
 
 ## Option 03: via Default Wi-Fi Hotspot*
